@@ -17,6 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
+    // Update page title and meta tags dynamically
+    document.title = `${project.title} - Silvan Roth`;
+    updateMetaTags(project);
+
     renderProject(project);
     setupProjectLightbox();
 
@@ -150,5 +154,52 @@ function setupProjectLightbox() {
                 openLightbox(img.src, img.alt || 'Project image');
             }
         });
+    });
+}
+
+// Function to update meta tags dynamically based on project data
+function updateMetaTags(project) {
+    // Update description meta tag
+    let descriptionMeta = document.querySelector('meta[name="description"]');
+    if (!descriptionMeta) {
+        descriptionMeta = document.createElement('meta');
+        descriptionMeta.setAttribute('name', 'description');
+        document.head.appendChild(descriptionMeta);
+    }
+    descriptionMeta.setAttribute('content', project.description || `${project.title} - A project by Silvan Jason Roth`);
+
+    // Update Open Graph tags
+    const ogTags = {
+        'og:title': project.title,
+        'og:description': project.description || `${project.title} - A project by Silvan Jason Roth`,
+        'og:url': `https://silvanjason.work/project.html?id=${project.id}`,
+        'og:image': project.thumbnailUrl || 'https://silvanjason.work/apple-touch-icon.png'
+    };
+
+    Object.keys(ogTags).forEach(property => {
+        let metaTag = document.querySelector(`meta[property="${property}"]`);
+        if (!metaTag) {
+            metaTag = document.createElement('meta');
+            metaTag.setAttribute('property', property);
+            document.head.appendChild(metaTag);
+        }
+        metaTag.setAttribute('content', ogTags[property]);
+    });
+
+    // Update Twitter Card tags
+    const twitterTags = {
+        'twitter:title': project.title,
+        'twitter:description': project.description || `${project.title} - A project by Silvan Jason Roth`,
+        'twitter:image': project.thumbnailUrl || 'https://silvanjason.work/apple-touch-icon.png'
+    };
+
+    Object.keys(twitterTags).forEach(name => {
+        let metaTag = document.querySelector(`meta[name="${name}"]`);
+        if (!metaTag) {
+            metaTag = document.createElement('meta');
+            metaTag.setAttribute('name', name);
+            document.head.appendChild(metaTag);
+        }
+        metaTag.setAttribute('content', twitterTags[name]);
     });
 }
