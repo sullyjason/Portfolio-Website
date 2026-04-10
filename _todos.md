@@ -24,7 +24,7 @@
 - [ ] Add logos to the institutions
 - [ ] Add links to the institutions
 - [ ] Add optional feature for "Mentors" or "Supported by"
-- [ ] Add credits - either in alt text or in caption or over image
+- [X] Add credits - either in alt text or in caption or over image
 
 ## Go-Live
 

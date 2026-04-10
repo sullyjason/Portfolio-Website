@@ -32,6 +32,7 @@ Drawing from environmental engineering and ecology, we found that the most effec
 
 ![Flow deflections](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-Ne1h.png)
 
+
 Our proposal combines these approaches: a woven willow obstacle that redirects the river’s flow, deepens the riverbed, and erodes part of the bank to form a shaded refuge pool. Vegetation helps stabilize the structure, provides natural shade, and integrate it into the ecosystem.
 
 ![Willow structure](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-kh9u.jpeg)

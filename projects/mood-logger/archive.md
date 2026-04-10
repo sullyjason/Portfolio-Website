@@ -28,6 +28,7 @@ However, I quickly realized a critical flaw: such a device could have the negati
 In order to capture a wider timeline of emotions, not just those occurring while around the physical device, I explored mood-tracking apps. A common issue I noticed was that most relied on a one-dimensional "Bad-to-Good" scale, which I found inaccurate. The *How We Feel* app, which organizes emotions based on the two dimensions of **valence** (pleasantness) and **arousal** (energy), offered a much more accurate model.
 
 ![How We Feel app UI](images/story-emotion-tracking-assistant-2Kgl.png)
+*Screenshot:* How We Feel *App*
 
 While this was app was surprisingly effective for building emotional vocabulary, it led to a new problem: I became an expert at describing negative states but rarely remembered to log positive ones. The act of sifting through negative terms to find the right one often led to a feedback loop that often deepened my negative mood.
 

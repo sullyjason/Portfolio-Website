@@ -3,7 +3,7 @@ id: 002
 company: "ZHdK / Museum für Gestaltung"
 status: published
 thumbnailUrl: "images/thumbnail-puppet-synthesizer-audiovisual-installation-wip-9b.png"
-title: "Puppet Synthesizer: Audiovisual Installation"
+title: "Puppet Synthesizer - Audiovisual Installation"
 description: "Designing the user interface and playable interactive installation for The Museum of the Future at ZHdK Museum für Gestaltung Zürich."
 type: "Interaction Design"
 date: "Feb 2025"

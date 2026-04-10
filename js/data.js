@@ -19,6 +19,7 @@ I aimed to create a more reliable way to track mood over time, recognizing that 
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Mood tracking apps</h2>
 In order to capture a wider timeline of emotions, not just those occurring while around the physical device, I explored mood-tracking apps. A common issue I noticed was that most relied on a one-dimensional "Bad-to-Good" scale, which I found inaccurate. The <em>How We Feel</em> app, which organizes emotions based on the two dimensions of <strong>valence</strong> (pleasantness) and <strong>arousal</strong> (energy), offered a much more accurate model.
 <div class="my-12 flex justify-center"><img src="images/projects/mood-logger/story-emotion-tracking-assistant-2Kgl.jpg" alt="How We Feel app UI" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<em>Screenshot:</em> How We Feel <em>App</em>
 <p class="mb-6 leading-relaxed text-gray-700">While this was app was surprisingly effective for building emotional vocabulary, it led to a new problem: I became an expert at describing negative states but rarely remembered to log positive ones. The act of sifting through negative terms to find the right one often led to a feedback loop that often deepened my negative mood.</p>
 <hr class="my-12 border-gray-200">
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Mood tracking fidget cube</h3>
@@ -33,7 +34,7 @@ The next steps for this project involve developing the firmware to ensure a seam
     {
       "id": "002",
       "thumbnailUrl": "images/projects/puppet-synthesizer/thumbnail-puppet-synthesizer-audiovisual-installation-wip-9b.jpg",
-      "title": "Puppet Synthesizer: Audiovisual Installation",
+      "title": "Puppet Synthesizer - Audiovisual Installation",
       "description": "Designing the user interface and playable interactive installation for The Museum of the Future at ZHdK Museum für Gestaltung Zürich.",
       "company": "ZHdK / Museum für Gestaltung",
       "status": "published",
@@ -548,6 +549,7 @@ Throughout the project, we developed several promising prototypes with potential
 Dot Incorporation is a South Korean startup producing innovative assistive technology for the blind such as braille smart watches, tactile braille displays, and accessible information kiosks.
 <p class="mb-6 leading-relaxed text-gray-700">Dot Pad is the first smart tactile graphics display for the visually impaired that enables the user to access visual content such as handwriting, graphs, equations, photos, documents, sketches and art in real time via 2400 tactile braille pins.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/tactile-displays-ux/story-dot-inc-x-apple-ux-concept-development-for-tactile-displays-upCM.jpg" alt="Dot Pad Interface" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<em>Photo: Dot Inc</em>
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Task</h2>
 To ensure Dot's tactile displays integrate seamlessly with iOS and macOS devices, we engaged in a collaborative effort with Apple Inc.

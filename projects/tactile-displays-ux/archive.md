@@ -20,6 +20,7 @@ Dot Incorporation is a South Korean startup producing innovative assistive techn
 Dot Pad is the first smart tactile graphics display for the visually impaired that enables the user to access visual content such as handwriting, graphs, equations, photos, documents, sketches and art in real time via 2400 tactile braille pins.
 
 ![Dot Pad Interface](images/story-dot-inc-x-apple-ux-concept-development-for-tactile-displays-upCM.png)
+*Photo: Dot Inc*
 
 ---
 
