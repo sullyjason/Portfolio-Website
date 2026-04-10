@@ -90,7 +90,7 @@ The installation is currently being exhibited at the <a href="https://museum-ges
     {
       "id": "003",
       "thumbnailUrl": "images/projects/wearable-sensor-docking-station/thumbnail-wearable-sensor-docking-station-g7.jpg",
-      "title": "Wearable sensor docking station",
+      "title": "Wearable Sensor Docking Station",
       "description": "Developing and building a modular docking station to take the hassle out of running wearable device studies.",
       "company": "SIPLab, ETH Zürich",
       "status": "published",
@@ -131,7 +131,7 @@ The next stage is for the docking station to go through rigorous real world test
     {
       "id": "004",
       "thumbnailUrl": "images/projects/where-the-river-hides/thumbnail-where-the-river-hides-design-interventions-for-an-overheating-river-JT.jpg",
-      "title": "\\\"Where the River Hides\\\" - Design interventions for an overheating river",
+      "title": "Where the River Hides - Design interventions for an overheating river",
       "description": "An interdisciplinary research project that engages communities to contribute to river revitalization efforts",
       "company": "ZHdK / Ars Electronica",
       "status": "published",
@@ -235,10 +235,10 @@ The current version is limited in a few ways that, in a next version, could be i
       "slug": "/p/006",
       "skills": ["3D Printing", "Electronics Hardware Design", "Industrial Design", "Prototyping"],
       "collaborators": [{"name": "Rayan Armani", "link": "https://rayanarmani.com"}],
-      "links": [],
+      "links": [{"label": "CLAW Original Paper", "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2018/03/CLAW_Choi_et_al_CHI2018.pdf"}, {"label": "CRAEFT Website", "url": "https://www.craeft.eu/"}, {"label": "CRAEFT Report", "url": "https://www.craeft.eu/wp-content/uploads/2025/04/D4.2_v2.pdf"}],
       "story": `<h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Task</h2>
-To rebuild the original CLAW Controller, a haptic VR controller with force simulation, designed by Inrak Choi from Microsoft Research in 2018 (<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2018/03/CLAW_Choi_et_al_CHI2018.pdf" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">paper</a>).
-<p class="mb-6 leading-relaxed text-gray-700">> CLAW is a handheld virtual reality controller that augments the typical controller functionality with force feedback and actuated movement to the index finger. Our controller enables three distinct interactions...and changes its corresponding haptic rendering by sensing the differences in the user’s grasp (Choi et al, 2018)</p>
+To rebuild the original CLAW Controller, a haptic VR controller with force simulation, designed by Inrak Choi at Microsoft Research in 2018.
+<p class="mb-6 leading-relaxed text-gray-700">"CLAW is a handheld virtual reality controller that augments the typical controller functionality with force feedback and actuated movement to the index finger. Our controller enables three distinct interactions...and changes its corresponding haptic rendering by sensing the differences in the user’s grasp" (Choi et al, 2018)</p>
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Role</h3>
 <ul class="my-8 space-y-2"><li class="ml-6 mb-2 list-disc pl-2 text-gray-700">Prototyping</li>
 <li class="ml-6 mb-2 list-disc pl-2 text-gray-700">PCB Design</li>
@@ -249,30 +249,30 @@ To rebuild the original CLAW Controller, a haptic VR controller with force simul
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Process</h2>
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Version 1</h3>
-The first iteration of the rebuilding the controller according to the documentation provided in the paper. I 3D printed the enclosure in PLA and breadboarded the electronics.
-<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-KvHU.jpg" alt="Version 1 breadboard" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+The first iteration of the rebuilding the controller according to the original documentation provided in the paper.
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-KvHU.jpg" alt="Version 1 breadboard and protoboard version" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Version 1.1</h3>
 Between the first and final version there was an attempt to rebuild the controller from the ground up, optimizing the ergonomics and industrial design by moving the servo arm downward.
-<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-fu8t.jpg" alt="Ergonomics testing" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-fu8t.jpg" alt="Ergonomics sketches" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">I tested the form with foam and cardboard, then 3D scanned and imported this into CAD, where a built a parametric model for 3D printing.</p>
-<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-1w6r.jpg" alt="CAD design" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-1w6r.jpg" alt="Ergonomic redesign: from foam to 3D print" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">Due to time constraints we decided to focus on improving the electronics and code rather than the industrial design, and this version of the controller was shelved.</p>
 <hr class="my-12 border-gray-200">
-<h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Final implementation</h3>
-The second and final iteration of the controller was a slimmed down, more compact version based on the original designs. I designed a PCB to hold the Teensy 3.2 microcontroller, the load cell amplifier, and the vibration coil driver IC.
-<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-0r6X.jpg" alt="Final PCB" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Version 2</h3>
+The second iteration of the controller was a slimmed down, more compact version based on the original designs. I designed a PCB to hold the microcontroller, the load cell amplifier, and the vibration motor driver circuitry.
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-0r6X.jpg" alt="First PCB Iteration" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">Some components from the servo arm were improved and I designed a custom Meta Quest 3 controller adapter which could be used for more accurate hand tracking, if needed.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-vWRD.jpg" alt="Quest 3 Adapter" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">The controller's firmware was written entirely in Arduino C, using the serial monitor as the interface to read sensors and send commands. A Unity build can then talk to the controller to allow the user to control and interact with their virtual reality environment.</p>
-<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-6j53.jpg" alt="Software interface" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-6j53.jpg" alt="Technical diagram and final equipment as shipped" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Revision</h3>
 Testing showed a few mechanical failure points, which led us to fabricate one final version. We took this opportunity to revise the PCB and polish the appearance. The parts were SLA printed in black nylon.
-<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-yCtc.jpg" alt="Final black nylon version" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>`
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-yCtc.jpg" alt="Improved black nylon version" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>`
     },
     {
       "id": "007",
       "thumbnailUrl": "images/projects/wearables-prototyping/thumbnail-wearables-prototyping-6l.jpg",
-      "title": "Wearables Prototyping",
+      "title": "Wearable Devices Prototyping",
       "description": "Developing prototypes for smart watches and wearable sensors.",
       "company": "ETH Zürich",
       "status": "published",
@@ -300,8 +300,8 @@ A later version required an IMU sensor and a touch screen, both which we found i
     {
       "id": "008",
       "thumbnailUrl": "images/projects/interactiles/thumbnail-interac-tiles-tactile-interactive-canvas-wip-aw.jpg",
-      "title": "InteracTiles - tactile interactive canvas (WIP)",
-      "description": "Clickable pixels to stay connected in a tangible way",
+      "title": "InteracTiles - Tactile Interactive Installation (WIP)",
+      "description": "Building a grid of glowing clickable pixels to stay connected in a tangible way",
       "company": "Personal Project",
       "status": "published",
       "type": "Design",
@@ -356,7 +356,7 @@ The next step is to build a bigger grid of pixels. I am currently working on des
     {
       "id": "009",
       "thumbnailUrl": "images/projects/ux-consulting/thumbnail-ux-consulting-XY.jpg",
-      "title": "UX Consulting",
+      "title": "UX Consulting and Redesign",
       "description": "Redesigning a startup's product configurator page to boost user experience and engagement",
       "company": "Startup Consulting",
       "status": "published",
@@ -384,7 +384,7 @@ The customer has since implemented many of the changes that I recommended and th
     {
       "id": "010",
       "thumbnailUrl": "images/projects/glow-grid/thumbnail-glow-grid-illuminating-the-journey-of-habit-tracking-wip-Hd.jpg",
-      "title": "GlowGrid: Flipping the switch on new habits",
+      "title": "GlowGrid - Flipping the Switch on New Habits",
       "description": "Designing and building a board of illuminated switches, a tactile representation of personal milestones",
       "company": "Personal Project",
       "status": "published",
@@ -456,7 +456,7 @@ Seeing our first Proof-of-Concept come alive was a major win; it was proof our i
       "thumbnailUrl": "images/projects/ambulance-fleet-management/thumbnail-ambulance-fleet-management-and-paramedic-companion-app-Z0.jpg",
       "title": "Ambulance Fleet Management and Paramedic Companion App",
       "description": "Designing a mobile app for paramedics and a virtual workspace for ambulance fleet management",
-      "company": "Swiss Public Health",
+      "company": "Swiss Hospitals Group",
       "status": "published",
       "type": "Consulting",
       "date": "Jul 2023",
@@ -532,7 +532,7 @@ Throughout the project, we developed several promising prototypes with potential
     {
       "id": "014",
       "thumbnailUrl": "images/projects/tactile-displays-ux/thumbnail-ux-concept-development-for-tactile-displays-0v.jpg",
-      "title": "Dot Inc x Apple: UX concept development for tactile displays",
+      "title": "Dot Inc x Apple - UI Concept Development for Tactile Displays",
       "description": "Developed UX concepts addressing how complex graphical user interfaces should best be translated into tactile graphical user interfaces",
       "company": "Dot Inc / Apple",
       "status": "published",
@@ -572,7 +572,7 @@ Emojis were used as a case study for how and whether images should be processed 
     {
       "id": "015",
       "thumbnailUrl": "images/projects/offshore-wind-monitoring/thumbnail-industrial-project-in-offshore-wind-product-concept-development-l2.jpg",
-      "title": "Industrial Project in Offshore Wind – Product concept development",
+      "title": "Industrial Project in Offshore Wind – Concept Development",
       "description": "Requirements engineering and concept development for a condition monitoring system for bolted flange connections on offshore wind turbines.",
       "company": "Arvick BV",
       "status": "published",
@@ -623,7 +623,7 @@ As offshore wind energy gains traction, most offshore wind turbines consist of a
     {
       "id": "016",
       "thumbnailUrl": "images/projects/freitag-design-thinking/thumbnail-sustainable-delivery-solutions-boost-satisfaction-Qp.jpg",
-      "title": "Freitag Labs and HSLU - Design Thinking Project",
+      "title": "Freitag Labs x HSLU - Design Thinking Project",
       "description": "As a part of the course \\\"Innovation Project\\\", a new concept for the prompt \\\"individual logistics\\\" was iteratively designed for Freitag AG.",
       "company": "Freitag AG",
       "status": "published",
