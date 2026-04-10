@@ -3,7 +3,7 @@ id: 004
 company: "ZHdK / Ars Electronica"
 status: published
 thumbnailUrl: "images/thumbnail-where-the-river-hides-design-interventions-for-an-overheating-river-JT.png"
-title: "\"Where the River Hides\" - Design interventions for an overheating river"
+title: "Where the River Hides - Design interventions for an overheating river"
 description: "An interdisciplinary research project that engages communities to contribute to river revitalization efforts"
 type: "Exhibition"
 date: "May 2025"

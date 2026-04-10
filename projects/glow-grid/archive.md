@@ -3,7 +3,7 @@ id: 010
 company: "Personal Project"
 status: published
 thumbnailUrl: "images/thumbnail-glow-grid-illuminating-the-journey-of-habit-tracking-wip-Hd.png"
-title: "GlowGrid: Flipping the switch on new habits"
+title: "GlowGrid - Flipping the Switch on New Habits"
 description: "Designing and building a board of illuminated switches, a tactile representation of personal milestones"
 type: "Design"
 date: "Feb 2024"

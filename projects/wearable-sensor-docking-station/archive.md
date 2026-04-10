@@ -3,7 +3,7 @@ id: 003
 company: "SIPLab, ETH Zürich"
 status: published
 thumbnailUrl: "images/thumbnail-wearable-sensor-docking-station-g7.png"
-title: "Wearable sensor docking station"
+title: "Wearable Sensor Docking Station"
 description: "Developing and building a modular docking station to take the hassle out of running wearable device studies."
 type: "Industrial Design"
 date: "Apr 2025"

@@ -3,7 +3,7 @@ id: 007
 company: "ETH Zürich"
 status: published
 thumbnailUrl: "images/thumbnail-wearables-prototyping-6l.jpg"
-title: "Wearables Prototyping"
+title: "Wearable Devices Prototyping"
 description: "Developing prototypes for smart watches and wearable sensors."
 type: "Prototyping"
 date: "Jul 2024"

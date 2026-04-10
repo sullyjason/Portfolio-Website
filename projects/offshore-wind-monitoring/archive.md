@@ -3,7 +3,7 @@ id: 015
 company: "Arvick BV"
 status: published
 thumbnailUrl: "images/thumbnail-industrial-project-in-offshore-wind-product-concept-development-l2.jpg"
-title: "Industrial Project in Offshore Wind – Product concept development"
+title: "Industrial Project in Offshore Wind – Concept Development"
 description: "Requirements engineering and concept development for a condition monitoring system for bolted flange connections on offshore wind turbines."
 type: "Engineering"
 date: "Dec 2019"

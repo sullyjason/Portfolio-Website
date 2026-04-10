@@ -1,6 +1,6 @@
 ---
 id: 012
-company: "Swiss Public Health"
+company: "Swiss Hospitals Group"
 status: published
 thumbnailUrl: "images/thumbnail-ambulance-fleet-management-and-paramedic-companion-app-Z0.png"
 title: "Ambulance Fleet Management and Paramedic Companion App"

@@ -3,7 +3,7 @@ id: 009
 company: "Startup Consulting"
 status: published
 thumbnailUrl: "images/thumbnail-ux-consulting-XY.png"
-title: "UX Consulting"
+title: "UX Consulting and Redesign"
 description: "Redesigning a startup's product configurator page to boost user experience and engagement"
 type: "UX Design"
 date: "Feb 2024"

@@ -3,7 +3,7 @@ id: 014
 company: "Dot Inc / Apple"
 status: published
 thumbnailUrl: "images/thumbnail-ux-concept-development-for-tactile-displays-0v.webp"
-title: "Dot Inc x Apple: UX concept development for tactile displays"
+title: "Dot Inc x Apple - UI Concept Development for Tactile Displays"
 description: "Developed UX concepts addressing how complex graphical user interfaces should best be translated into tactile graphical user interfaces"
 type: "Design Research"
 date: "Oct 2020"

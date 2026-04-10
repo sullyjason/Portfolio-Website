@@ -3,7 +3,7 @@ id: 016
 company: "Freitag AG"
 status: published
 thumbnailUrl: "images/thumbnail-sustainable-delivery-solutions-boost-satisfaction-Qp.jpeg"
-title: "Freitag Labs and HSLU - Design Thinking Project"
+title: "Freitag Labs x HSLU - Design Thinking Project"
 description: "As a part of the course \"Innovation Project\", a new concept for the prompt \"individual logistics\" was iteratively designed for Freitag AG."
 type: "Business Development"
 date: "Dec 2018"

@@ -3,8 +3,8 @@ id: 008
 company: "Personal Project"
 status: published
 thumbnailUrl: "images/thumbnail-interac-tiles-tactile-interactive-canvas-wip-aw.png"
-title: "InteracTiles - tactile interactive canvas (WIP)"
-description: "Clickable pixels to stay connected in a tangible way"
+title: "InteracTiles - Tactile Interactive Installation (WIP)"
+description: "Building a grid of glowing clickable pixels to stay connected in a tangible way"
 type: "Design"
 date: "Feb 2024"
 slug: "/p/008"
