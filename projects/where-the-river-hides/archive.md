@@ -12,9 +12,9 @@ skills: [Environmental Design, Research, Community Engagement]
 collaborators: 
   - "Dominic Sutter | https://dominicsutter.ch"
   - "Silvana De Paola | https://silvanadepaola.ch/"
+links:
+  - "Ars Electronica Page | https://ars.electronica.art/panic/de/view/where-the-river-hides-21e38ddb450c81ef9d1ae97eb74e55b7/"
 ---
-
-Ars Electronica Page: [Where the River Hides](https://ars.electronica.art/panic/de/view/where-the-river-hides-21e38ddb450c81ef9d1ae97eb74e55b7/)
 
 “Where the River Hides” is an interdisciplinary research project that brings together knowledge from diverse fields and engages communities to contribute to river revitalization efforts. The exploration took place along the Töss River in eastern Switzerland, where aquatic natives such as the brown trout and minnow are increasingly threatened by heatwaves that devastate their populations.
 

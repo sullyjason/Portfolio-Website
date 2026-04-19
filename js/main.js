@@ -94,9 +94,7 @@ function renderPortfolioGrid() {
                     
                     <div class="flex justify-between items-center border-t border-gray-100 pt-3 mt-1 text-xs">
                         <div class="text-gray-500">${project.type}</div>
-                        <div class="text-gray-400 font-medium">
-                            <div class="text-xs text-gray-500"><time>${project.date}</time></div>
-                        </div>
+                        <div class="text-gray-500"><time>${project.date}</time></div>
                     </div>
                 </div>
             </div>

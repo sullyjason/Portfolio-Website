@@ -72,7 +72,7 @@ function renderProject(project) {
     }).join('');
 
     const linksHtml = (project.links || []).map(l => {
-        return `<a href="${l.url}" target="_blank" rel="noopener noreferrer" style="color: #2563eb !important; text-decoration: none !important;" class="inline-flex items-center gap-[0.4375rem] transition-all group whitespace-nowrap text-base mr-8">
+        return `<a href="${l.url}" target="_blank" rel="noopener noreferrer" style="color: #2563eb !important; text-decoration: none !important;" class="inline-flex items-center gap-1 transition-all group whitespace-nowrap text-base">
             <span>${l.label}</span>
             <svg class="w-4 h-4 transform transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
         </a>`;
@@ -113,7 +113,7 @@ function renderProject(project) {
                     ${hasLinks ? `
                     <div class="space-y-4 text-left">
                         <h3 class="text-sm font-semibold text-gray-500 tracking-wider">Links</h3>
-                        <div class="flex flex-wrap gap-x-16 gap-y-4">
+                        <div class="flex flex-col gap-3">
                             ${linksHtml}
                         </div>
                     </div>
@@ -122,7 +122,7 @@ function renderProject(project) {
                 ` : ''}
             </header>
 
-            <div class="project-story text-gray-800 leading-loose space-y-6 mb-12">
+            <div class="project-story text-gray-800 mb-12">
                 ${project.story || '<p class="text-gray-500 italic">Detailed description coming soon.</p>'}
             </div>
 

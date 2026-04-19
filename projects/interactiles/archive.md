@@ -31,7 +31,7 @@ The main sources of inspiration for this project stemmed from the following:
 - Valentin Ruhry’s and Simone Giertz’s grids of illuminated switches.
 - “The Everbright”, an installation seen at the San Jose Science Museum in 2021.
 
-Andy developed a physical version of r/place in 2023 with [GridWorld](https://andykong.org/projects/gridworld/), a virtual canvas that was displayed in real time on a physical LED screen. My own ideas came from previous projects such as [GlowGrid](/p/6852) and my work in tactile user interfaces.
+Andy developed a physical version of r/place in 2023 with [GridWorld](https://andykong.org/projects/gridworld/), a virtual canvas that was displayed in real time on a physical LED screen. My own ideas came from previous projects such as [GlowGrid] and my work in tactile user interfaces.
 
 ---
 

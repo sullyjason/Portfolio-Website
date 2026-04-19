@@ -20,13 +20,11 @@ collaborators:
   - "David Bock | https://davidbock.ch/"
   - "Lars Kristian"
 links:
-  - "Repository | https://github.com/sullyjason/PuppetSynthesizer"
-  - "Project Page | https://museum-gestaltung.ch/de/ausstellung/museum-future"
+  - "GitHub Repository | https://github.com/sullyjason/PuppetSynthesizer"
+  - "Museum für Gestaltung | https://museum-gestaltung.ch/de/ausstellung/museum-future"
 ---
 
 For the Exhibition ["Museum of the Future"](https://museum-gestaltung.ch/de/ausstellung/museum-future) in the fall of 2025, Zürich's Museum für Gestaltung commissioned ZHdK to develop a series of interactive installations paying tribute to Sophie Täuber Arp's infamous wooden marionettes that she created for the play *King Stag*.
-
-[Repository](https://github.com/sullyjason/PuppetSynthesizer)
 
 ## Concept
 Puppet Synth is a digital reinterpretation of Sophie Taeuber-Arp’s avant-garde puppetry for King Stag, breaking with traditional visual and performative conventions. Inspired by Rudolf Laban’s choreographic notation and Taeuber-Arp’s expressive dance practice, this project brings the puppets’ gestures into the digital realm. Users are invited to choreograph puppet movements themselves. Visually, Puppet Synth renders these complex motion sequences as wave-like frequency patterns, making them both tangible and analyzable.

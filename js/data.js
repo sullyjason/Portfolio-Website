@@ -43,9 +43,8 @@ The next steps for this project involve developing the firmware to ensure a seam
       "slug": "/p/002",
       "skills": ["Electronics Hardware Design", "Graphic Design", "Unity 3D"],
       "collaborators": [{"name": "Lisa Bach", "link": "https://lbach.cargo.site/"}, {"name": "Jan H\u00fcgli"}, {"name": "Jan Th\u00fcrig", "link": "https://www.linkedin.com/in/jan-thuering-144724350/"}, {"name": "Jan Espig", "link": "https://www.linkedin.com/in/jan-espig-642480186/"}, {"name": "David Bock", "link": "https://davidbock.ch/"}, {"name": "Lars Kristian"}],
-      "links": [{"label": "Repository", "url": "https://github.com/sullyjason/PuppetSynthesizer"}, {"label": "Project Page", "url": "https://museum-gestaltung.ch/de/ausstellung/museum-future"}],
+      "links": [{"label": "GitHub Repository", "url": "https://github.com/sullyjason/PuppetSynthesizer"}, {"label": "Museum f\u00fcr Gestaltung", "url": "https://museum-gestaltung.ch/de/ausstellung/museum-future"}],
       "story": `<p class="mb-6 leading-relaxed text-gray-700">For the Exhibition <a href="https://museum-gestaltung.ch/de/ausstellung/museum-future" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">"Museum of the Future"</a> in the fall of 2025, Zürich's Museum für Gestaltung commissioned ZHdK to develop a series of interactive installations paying tribute to Sophie Täuber Arp's infamous wooden marionettes that she created for the play <em>King Stag</em>.</p>
-<p class="mb-6 leading-relaxed text-gray-700"><a href="https://github.com/sullyjason/PuppetSynthesizer" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">Repository</a></p>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Concept</h2>
 Puppet Synth is a digital reinterpretation of Sophie Taeuber-Arp’s avant-garde puppetry for King Stag, breaking with traditional visual and performative conventions. Inspired by Rudolf Laban’s choreographic notation and Taeuber-Arp’s expressive dance practice, this project brings the puppets’ gestures into the digital realm. Users are invited to choreograph puppet movements themselves. Visually, Puppet Synth renders these complex motion sequences as wave-like frequency patterns, making them both tangible and analyzable.
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Team</h2>
@@ -141,9 +140,8 @@ The next stage is for the docking station to go through rigorous real world test
       "slug": "/p/004",
       "skills": ["Environmental Design", "Research", "Community Engagement"],
       "collaborators": [{"name": "Dominic Sutter", "link": "https://dominicsutter.ch"}, {"name": "Silvana De Paola", "link": "https://silvanadepaola.ch/"}],
-      "links": [],
-      "story": `<p class="mb-6 leading-relaxed text-gray-700">Ars Electronica Page: <a href="https://ars.electronica.art/panic/de/view/where-the-river-hides-21e38ddb450c81ef9d1ae97eb74e55b7/" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">Where the River Hides</a></p>
-<p class="mb-6 leading-relaxed text-gray-700">“Where the River Hides” is an interdisciplinary research project that brings together knowledge from diverse fields and engages communities to contribute to river revitalization efforts. The exploration took place along the Töss River in eastern Switzerland, where aquatic natives such as the brown trout and minnow are increasingly threatened by heatwaves that devastate their populations.</p>
+      "links": [{"label": "Ars Electronica Page", "url": "https://ars.electronica.art/panic/de/view/where-the-river-hides-21e38ddb450c81ef9d1ae97eb74e55b7/"}],
+      "story": `<p class="mb-6 leading-relaxed text-gray-700">“Where the River Hides” is an interdisciplinary research project that brings together knowledge from diverse fields and engages communities to contribute to river revitalization efforts. The exploration took place along the Töss River in eastern Switzerland, where aquatic natives such as the brown trout and minnow are increasingly threatened by heatwaves that devastate their populations.</p>
 <p class="mb-6 leading-relaxed text-gray-700">Our aim was not only to explore technical solutions to these challenges but also to find sustainable ways to engage both local communities and visitors in making small but cumulative contributions to river revitalization.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/where-the-river-hides/story-where-the-river-hides-design-interventions-for-an-overheating-river-G6Ve.jpg" alt="River research" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Working with Ecological Interconnectivity</h2>
@@ -186,9 +184,11 @@ I was inspired by artists such as Jim Campell (middle) and design studios such a
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Process</h2>
 Due to the limited amount of time I intended to use supplies I already had for prototyping.
-<p class="mb-6 leading-relaxed text-gray-700">1. The original idea involved using an ESP32CAM to stream live footage to another ESP32 controlling a 64x64 LED Matrix via the HUB75 interface.
-2. I quickly realized that it might be easier to demonstrate using a Raspberry Pi due to its memory and processing capabilities, as I was intending to control quite a large amount of LEDs.
-3. I finally decided that demo videos would likely be more effective to convey my message, letting me choose what scene I want to show and being much simpler to implement technically. I also decided to switch to an existing 8x8 LED Matrix that I already had, as its form factor made it easy to transport and I didn't need to build my own grid from one long string of LEDs.</p>
+<ol>
+<li>The original idea involved using an ESP32CAM to stream live footage to another ESP32 controlling a 64x64 LED Matrix via the HUB75 interface.</li>
+<li>I quickly realized that it might be easier to demonstrate using a Raspberry Pi due to its memory and processing capabilities, as I was intending to control quite a large amount of LEDs.</li>
+<li>I finally decided that demo videos would likely be more effective to convey my message, letting me choose what scene I want to show and being much simpler to implement technically. I also decided to switch to an existing 8x8 LED Matrix that I already had, as its form factor made it easy to transport and I didn't need to build my own grid from one long string of LEDs.</li>
+</ol>
 <div class="my-12 flex justify-center"><img src="images/projects/foggy/story-foggy-seeing-reality-in-the-low-res-CdgA.jpg" alt="Process" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Implementation</h2>
@@ -719,7 +719,7 @@ currently 9 art universities.
       "slug": "/p/7846",
       "skills": ["Haptics", "Internet of Things", "Interaction Design", "Human-Robot Interaction", "Web Design"],
       "collaborators": [],
-      "links": [{"label": "GitHub", "url": "https://github.com/sullyjason/AudioToHaptics"}, {"label": "Background Research Paper", "url": "https://dl.acm.org/doi/abs/10.1145/3757279.3785620"}],
+      "links": [{"label": "GitHub Repository", "url": "https://github.com/sullyjason/AudioToHaptics"}, {"label": "Background Research Paper", "url": "https://dl.acm.org/doi/abs/10.1145/3757279.3785620"}],
       "story": `<h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Task</h3>
 Contracted by one of ETH Zürich's neuroscience research labs, it was my job to produce a piece of hardware that would be capable of converting any audio files into vibration patterns. The project belonged to a larger effort to understand and systematize how we as humans perceive tactile feedback and haptic interactions with robots. Which haptic patterns do we consider pleasant, and which do we feel an aversion to?
 <div class="my-12 flex justify-center"><img src="images/projects/haptics_kit/prototyping.jpg" alt="Testing audio amplifier boards" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>

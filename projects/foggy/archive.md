@@ -3,7 +3,7 @@ id: 005
 company: "ZHdK"
 status: published
 thumbnailUrl: "images/thumbnail-foggy-seeing-reality-in-the-low-res-SQ.jpeg"
-title: "Foggy - seeing reality in the low res"
+title: "Foggy - seeing reality in low res"
 description: "Less pixels for more realism: Using a diffused low resolution LED matrix to create impressionistic abstractions of recognizable scenes and video sequences"
 type: "Interaction Design"
 date: "Sep 2024"

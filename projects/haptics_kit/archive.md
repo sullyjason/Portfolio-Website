@@ -15,7 +15,7 @@ skills:
   - "Human-Robot Interaction"
   - "Web Design"
 links: 
-  - "GitHub | https://github.com/sullyjason/AudioToHaptics"
+  - "GitHub Repository | https://github.com/sullyjason/AudioToHaptics"
   - "Background Research Paper | https://dl.acm.org/doi/abs/10.1145/3757279.3785620"
 ---
 

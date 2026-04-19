@@ -4,14 +4,15 @@
 
 - [X] Fix italics rendering in body text
 - [X] Fix link styling (remove bold formatting)
-- [ ] Add one character space after link and before external arrow icon starts
+- [ ] Add some space between links
 - [X] Fix hyperlink appearance (no underline, same weight as other body text)
 - [X] Fix heading capitalization inconsistencies (for example, Collaborators and Links do not need to be in caps
 - [ ] Reduce excessive spacing slightly after separator lines
 - [X] Fix quotation mark rendering in project titles
 - [X] If a collaborator has no link, the color of the font and outline of the pill is currently still a little too dark. Make it lighter so it is easier to discern from those with links behind the name)
-- [ ] On mobile view everything is still a little too big, zoom out a bit!
-- [ ] Change style of captions
+- [X] On mobile view everything is still a little too big, zoom out a bit!
+- [X] Change style of captions
+- [ ] Inconsistent body text spacing
 
 
 ## Content
