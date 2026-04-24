@@ -46,6 +46,10 @@ img {
     max-width: 100%;
 }
 
+#project-container img {
+    background-color: white;
+}
+
 a {
     text-decoration: none;
     color: inherit;

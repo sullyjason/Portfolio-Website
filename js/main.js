@@ -35,12 +35,24 @@ function sortProjectsByDate(projects) {
     return [...projects].sort((a, b) => parseProjectEndDate(b.date) - parseProjectEndDate(a.date));
 }
 
+function getOrderedProjects(projects) {
+    const hidden = (typeof hiddenProjectIds !== 'undefined' && hiddenProjectIds) ? new Set(hiddenProjectIds) : new Set();
+    const visible = projects.filter(p => !hidden.has(p.id));
+    if (typeof customProjectOrder === 'undefined' || !customProjectOrder || customProjectOrder.length === 0) {
+        return sortProjectsByDate(visible);
+    }
+    const prioritized = customProjectOrder.map(id => visible.find(p => p.id === id)).filter(Boolean);
+    const prioritizedIds = new Set(customProjectOrder);
+    const remaining = sortProjectsByDate(visible.filter(p => !prioritizedIds.has(p.id)));
+    return [...prioritized, ...remaining];
+}
+
 function renderPortfolioGrid() {
     const gridEl = document.getElementById('portfolio-grid');
     if (!gridEl) return;
 
     let html = '';
-    const sortedProjects = sortProjectsByDate(projectsData);
+    const sortedProjects = getOrderedProjects(projectsData);
 
     sortedProjects.forEach(project => {
         // Only show published projects on the main grid

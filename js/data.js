@@ -17,9 +17,9 @@ I aimed to create a more reliable way to track mood over time, recognizing that 
 <div class="my-12 flex justify-center"><img src="images/projects/mood-logger/story-emotion-tracking-assistant-eeWi.jpg" alt="Companion device sketches" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">However, I quickly realized a critical flaw: such a device could have the negative effect of constantly reminding users of their bad moods, which is counterproductive for many who struggle with anxiety or depression.</p>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Mood tracking apps</h2>
-In order to capture a wider timeline of emotions, not just those occurring while around the physical device, I explored mood-tracking apps. A common issue I noticed was that most relied on a one-dimensional "Bad-to-Good" scale, which I found inaccurate. The <em>How We Feel</em> app, which organizes emotions based on the two dimensions of <strong>valence</strong> (pleasantness) and <strong>arousal</strong> (energy), offered a much more accurate model.
+In order to capture a wider timeline of emotions, not just those occurring while around the physical device, I explored mood-tracking apps. A common issue I noticed was that most relied on a one-dimensional "Bad-to-Good" scale, which I found inaccurate. The app, which organizes emotions based on the two dimensions of <strong>valence</strong> (pleasantness) and <strong>arousal</strong> (energy), offered a much more accurate model.
 <div class="my-12 flex justify-center"><img src="images/projects/mood-logger/story-emotion-tracking-assistant-2Kgl.jpg" alt="How We Feel app UI" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
-<em>Screenshot:</em> How We Feel <em>App</em>
+<em>Screenshot:How We Feel App</em>
 <p class="mb-6 leading-relaxed text-gray-700">While this was app was surprisingly effective for building emotional vocabulary, it led to a new problem: I became an expert at describing negative states but rarely remembered to log positive ones. The act of sifting through negative terms to find the right one often led to a feedback loop that often deepened my negative mood.</p>
 <hr class="my-12 border-gray-200">
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Mood tracking fidget cube</h3>
@@ -163,7 +163,7 @@ We exhibited this project at the 2025 Ars Electronica festival under the theme "
     {
       "id": "005",
       "thumbnailUrl": "images/projects/foggy/thumbnail-foggy-seeing-reality-in-the-low-res-SQ.jpg",
-      "title": "Foggy - seeing reality in the low res",
+      "title": "Foggy - seeing reality in low res",
       "description": "Less pixels for more realism: Using a diffused low resolution LED matrix to create impressionistic abstractions of recognizable scenes and video sequences",
       "company": "ZHdK",
       "status": "published",
@@ -184,11 +184,9 @@ I was inspired by artists such as Jim Campell (middle) and design studios such a
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Process</h2>
 Due to the limited amount of time I intended to use supplies I already had for prototyping.
-<ol>
-<li>The original idea involved using an ESP32CAM to stream live footage to another ESP32 controlling a 64x64 LED Matrix via the HUB75 interface.</li>
-<li>I quickly realized that it might be easier to demonstrate using a Raspberry Pi due to its memory and processing capabilities, as I was intending to control quite a large amount of LEDs.</li>
-<li>I finally decided that demo videos would likely be more effective to convey my message, letting me choose what scene I want to show and being much simpler to implement technically. I also decided to switch to an existing 8x8 LED Matrix that I already had, as its form factor made it easy to transport and I didn't need to build my own grid from one long string of LEDs.</li>
-</ol>
+<p class="mb-6 leading-relaxed text-gray-700">1. The original idea involved using an ESP32CAM to stream live footage to another ESP32 controlling a 64x64 LED Matrix via the HUB75 interface.
+2. I quickly realized that it might be easier to demonstrate using a Raspberry Pi due to its memory and processing capabilities, as I was intending to control quite a large amount of LEDs.
+3. I finally decided that demo videos would likely be more effective to convey my message, letting me choose what scene I want to show and being much simpler to implement technically. I also decided to switch to an existing 8x8 LED Matrix that I already had, as its form factor made it easy to transport and I didn't need to build my own grid from one long string of LEDs.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/foggy/story-foggy-seeing-reality-in-the-low-res-CdgA.jpg" alt="Process" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Implementation</h2>
@@ -321,7 +319,7 @@ The main sources of inspiration for this project stemmed from the following:
 <ul class="my-8 space-y-2"><li class="ml-6 mb-2 list-disc pl-2 text-gray-700">The reddit project r/place, a digital online canvas allowing the entire online community to collectively create pixel art.</li>
 <li class="ml-6 mb-2 list-disc pl-2 text-gray-700">Valentin Ruhry’s and Simone Giertz’s grids of illuminated switches.</li>
 <li class="ml-6 mb-2 list-disc pl-2 text-gray-700">“The Everbright”, an installation seen at the San Jose Science Museum in 2021.</li>
-<p class="mb-6 leading-relaxed text-gray-700"></ul>Andy developed a physical version of r/place in 2023 with <a href="https://andykong.org/projects/gridworld/" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">GridWorld</a>, a virtual canvas that was displayed in real time on a physical LED screen. My own ideas came from previous projects such as <a href="/p/6852" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">GlowGrid</a> and my work in tactile user interfaces.</p>
+<p class="mb-6 leading-relaxed text-gray-700"></ul>Andy developed a physical version of r/place in 2023 with <a href="https://andykong.org/projects/gridworld/" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">GridWorld</a>, a virtual canvas that was displayed in real time on a physical LED screen. My own ideas came from previous projects such as [GlowGrid] and my work in tactile user interfaces.</p>
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Use cases by configuration</h2>
 The following are some of the potential use cases for this project. We have not yet attempted to evaluate the feasibility of each of the ideas to narrow down the scope of the project, as we believe users will find their own unique and creative uses for the product once they are given access.
