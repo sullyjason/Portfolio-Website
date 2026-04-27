@@ -18,6 +18,7 @@ collaborators:
 
 ## Task
 The task was to design a docking station (called the "BaseStation") to simplify the charging, data transmission, and synchronization of devices such as wearables used in data collection studies. The BaseStation was to offer flexibility and broad device compatibility while maintaining a compact footprint and ease of manufacturing and assembly. I was to design both this interface, the electronics, enclosure, integration, and a framework for making new or existing devices compatible with this device.
+![Photo of final product, enhanced ligthing using AI](images/render_open.png)
 
 ## Prototyping
 Iterative prototyping made up the core of this project: it was crucial to get the device interface right before we continued to the enclosure, which could easily be modified later on. I began with primitive cardboard models to get a feel for the usability and then gradually moved on to more high fidelity protyping like 3D modeled parts.
