@@ -13,13 +13,13 @@ skills:
   - "Installation Design"
   - "Project Management"
 collaborators:
-  - "Vendela Häkonsen | https://www.instagram.com/venaurt/"
+  - "Vendela Håkonsen | https://venaur.com/"
   - "Rachel Lin | https://www.linkedin.com/in/rachel-lin-huiyi/ " 
   - "Li De" 
   - "Leonie Karbownik" 
   - "Anja Schläppi"
 links:
-  - "Shared Campus | https://shared-campus.com/"
+  - "Transcultural Collaboration Website | https://www.transculturalcollaboration.com/"
 ---
 
 *Again & Again & Again & (splishsplashpingpongbeepboop)* explores alternative temporalities as methodology and proposes a social, polythematic approach to lived reality. Through the simultaneous reduction and accumulation of melting ice and amplified soundscapes and footages of Yogyakarta, the work embodies event-based time while layering communal polyrhythms. Activated by a performance, it layers upon a communal agreement to alter its melt but fails as time asserts  itself as an unstoppable, cosmic force.
