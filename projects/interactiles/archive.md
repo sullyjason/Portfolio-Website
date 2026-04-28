@@ -33,14 +33,10 @@ The main sources of inspiration for this project stemmed from the following:
 
 Andy developed a physical version of r/place in 2023 with [GridWorld](https://andykong.org/projects/gridworld/), a virtual canvas that was displayed in real time on a physical LED screen. My own ideas came from previous projects such as [GlowGrid] and my work in tactile user interfaces.
 
----
-
 ## Use cases by configuration
 The following are some of the potential use cases for this project. We have not yet attempted to evaluate the feasibility of each of the ideas to narrow down the scope of the project, as we believe users will find their own unique and creative uses for the product once they are given access.
 
 ![Use cases](images/story-interactiles-oooz.png)
-
----
 
 ## Design
 The design process of Interactiles started in December 2023. We made sure to respect certain basic principles, such as modularity, no screen, and exclusively tactile controls. The buttons were to feel pleasant and as tactile as possible. The use case was not clear yet at this point, but we were determined that a clean and user friendly product would find its use case if it was designed to be user friendly enough.

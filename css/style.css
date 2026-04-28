@@ -798,6 +798,10 @@ button {
     border-color: white;
 }
 
+.h-72 {
+    height: 17rem;
+}
+
 /* Responsive Breakpoints */
 @media (min-width: 640px) {
     .sm\:w-44 {
@@ -811,6 +815,7 @@ button {
     .sm\:h-72 {
         height: 18rem;
     }
+}
 
     .sm\:px-6 {
         padding-left: 1.5rem;

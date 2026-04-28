@@ -11,7 +11,6 @@ slug: "/p/010"
 skills: 
   - "3D Modeling"
   - "Electrical Design"
-  - "Industrial Design"
   - "Laser Cutting"
   - "Rapid Prototyping"
 ---
@@ -23,7 +22,6 @@ The idea for GlowGrid was born out of the long and anxious hours of the COVID-19
 
 I found the most effective habit tracking tools to be visual reminders that would also show me my progress so far. I started off with posters and later progressed to rainbow scratch paper. I found myself craving that small reward of scratching off another day, and noticing a gap in my progress was just painful enough that I would try to prevent it.
 
----
 
 ## Iteration 1: Acrylic Prototype
 Even after lockdown ended, I found myself still using this method to track my habits (now reading books, meditating). I came across Simone Giertz’s "Everyday Calendar", which inspired me to build a more tangible and reusable version of this habit tracking system. The Everyday Calendar uses capacitive touch pads that light up when touched.
@@ -38,7 +36,6 @@ The idea worked well. I refined the design in CAD and improved the wiring to mak
 
 ![Multiple units](images/story-glowgrid-illuminating-the-journey-to-new-habits-wip-RAjh.jpg)
 
----
 
 ## Iteration 2: A Broader Canvas
 Encouraged by [Valentin Ruhry's "Hello World"](http://ruhry.at/en/work/items/untitled-hello-world.html), I have expanded GlowGrid's scope.
