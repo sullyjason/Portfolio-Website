@@ -26,15 +26,10 @@ To rebuild the original CLAW Controller, a haptic VR controller with force simul
 
 "CLAW is a handheld virtual reality controller that augments the typical controller functionality with force feedback and actuated movement to the index finger. Our controller enables three distinct interactions...and changes its corresponding haptic rendering by sensing the differences in the user’s grasp" (Choi et al, 2018)
 
+![CLAW Main](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-T9ED.png)
 
 ### Role
-- Prototyping
-- PCB Design
-- Industrial design
-- Firmware
-- Documentation
-
-![CLAW Main](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-T9ED.png)
+PCB design, CAD modeling and fabrication, firmware and documentation
 
 ---
 
@@ -75,3 +70,13 @@ The controller's firmware was written entirely in Arduino C, using the serial mo
 Testing showed a few mechanical failure points, which led us to fabricate one final version. We took this opportunity to revise the PCB and polish the appearance. The parts were SLA printed in black nylon.
 
 ![Improved black nylon version](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-yCtc.png)
+
+---
+
+### Use Case
+
+This controller was built for a CRAEFT (Craft Understanding, Education, Training, and Preservation for Posterity and Prosperity) project, an EU-funded project aiming to catalyze the education and preservation of traditional crafts such as glassblowing, woodworking, and tapestry through digital media such as virtual reality. 
+
+![Digitally capturing the glassmaking process](images/craeft_glass.png)
+*Photos: craeft.eu*
+

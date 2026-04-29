@@ -1,7 +1,7 @@
 ---
 id: 017
-company: "Personal Project"
-status: unlisted
+company: "ETH Zürich"
+status: published
 thumbnailUrl: "images/story-wallbo-social-robot-industrial-design-prototyping-IE7W.png"
 title: "WallBo Social Robot: Industrial Design & Prototyping"
 description: "Updating the physical design of a wall-mounted social robot to accommodate upgraded hardware and improve its friendliness for children."
@@ -11,10 +11,13 @@ slug: "/p/017"
 skills: 
   - "3D Modeling"
   - "Blender"
+  - "Electronics Integration"
 collaborators: 
  - "Amol Deshmukh"
 links:
  - "Wallbo Case Study | https://arcaccelerator.io/case-studies/wallbo/"
+ - "CHI Publication | https://dl.acm.org/doi/pdf/10.1145/3772363.3799114"
+ - "Demo Video | https://www.youtube.com/watch?v=qMXRR_eCMLY"
 ---
 
 ## Original Project
@@ -22,6 +25,7 @@ links:
 WallBo is a wall-mounted social robot designed to encourage and monitor handwashing habits among children in schools. Developed to combat the spread of diseases like COVID-19 and reduce child mortality rates in developing countries, the robot uses AI to engage with students, making the hygiene process fun and interactive.
 
 ![WallBo Robot](images/story-wallbo-social-robot-industrial-design-prototyping-IE7W.png)
+*Image: Youtube*
 
 ## Task
 
@@ -42,3 +46,5 @@ I modeled a new enclosure that securely housed the Nvidia Jetson and touchscreen
 Once the design was finalized in CAD, I 3D printed the new housing and managed the assembly process, successfully integrating the new hardware into the redesigned chassis.
 
 ![Assembly Image](images/story-wallbo-social-robot-industrial-design-prototyping-NW4t.png)
+
+The new design was accepted and presented as the new "Wallbo 2.0" design for a submission to CHI 2026.

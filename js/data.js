@@ -240,13 +240,9 @@ The current version is limited in a few ways that, in a next version, could be i
       "story": `<h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Task</h2>
 To rebuild the original CLAW Controller, a haptic VR controller with force simulation, designed by Inrak Choi at Microsoft Research in 2018.
 <p class="mb-6 leading-relaxed text-gray-700">"CLAW is a handheld virtual reality controller that augments the typical controller functionality with force feedback and actuated movement to the index finger. Our controller enables three distinct interactions...and changes its corresponding haptic rendering by sensing the differences in the user’s grasp" (Choi et al, 2018)</p>
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-T9ED.jpg" alt="CLAW Main" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Role</h3>
-<ul class="my-8 space-y-2"><li class="ml-6 mb-2 list-disc pl-2 text-gray-700">Prototyping</li>
-<li class="ml-6 mb-2 list-disc pl-2 text-gray-700">PCB Design</li>
-<li class="ml-6 mb-2 list-disc pl-2 text-gray-700">Industrial design</li>
-<li class="ml-6 mb-2 list-disc pl-2 text-gray-700">Firmware</li>
-<li class="ml-6 mb-2 list-disc pl-2 text-gray-700">Documentation</li>
-<p class="mb-6 leading-relaxed text-gray-700"></ul><div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-T9ED.jpg" alt="CLAW Main" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div></p>
+PCB design, CAD modeling and fabrication, firmware and documentation
 <hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Process</h2>
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Version 1</h3>
@@ -268,7 +264,12 @@ The second iteration of the controller was a slimmed down, more compact version 
 <div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-6j53.jpg" alt="Technical diagram and final equipment as shipped" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Revision</h3>
 Testing showed a few mechanical failure points, which led us to fabricate one final version. We took this opportunity to revise the PCB and polish the appearance. The parts were SLA printed in black nylon.
-<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-yCtc.jpg" alt="Improved black nylon version" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>`
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-yCtc.jpg" alt="Improved black nylon version" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<hr class="my-12 border-gray-200">
+<h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Use Case</h3>
+<p class="mb-6 leading-relaxed text-gray-700">This controller was built for a CRAEFT (Craft Understanding, Education, Training, and Preservation for Posterity and Prosperity) project, an EU-funded project aiming to catalyze the education and preservation of traditional crafts such as glassblowing, woodworking, and tapestry through digital media such as virtual reality.</p>
+<div class="my-12 flex justify-center"><img src="images/projects/rebuilding-the-claw/craeft_glass.jpg" alt="Digitally capturing the glassmaking process" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<em>Photos: craeft.eu</em>`
     },
     {
       "id": "007",
@@ -322,11 +323,9 @@ The main sources of inspiration for this project stemmed from the following:
 <li class="ml-6 mb-2 list-disc pl-2 text-gray-700">Valentin Ruhry’s and Simone Giertz’s grids of illuminated switches.</li>
 <li class="ml-6 mb-2 list-disc pl-2 text-gray-700">“The Everbright”, an installation seen at the San Jose Science Museum in 2021.</li>
 <p class="mb-6 leading-relaxed text-gray-700"></ul>Andy developed a physical version of r/place in 2023 with <a href="https://andykong.org/projects/gridworld/" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">GridWorld</a>, a virtual canvas that was displayed in real time on a physical LED screen. My own ideas came from previous projects such as [GlowGrid] and my work in tactile user interfaces.</p>
-<hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Use cases by configuration</h2>
 The following are some of the potential use cases for this project. We have not yet attempted to evaluate the feasibility of each of the ideas to narrow down the scope of the project, as we believe users will find their own unique and creative uses for the product once they are given access.
 <div class="my-12 flex justify-center"><img src="images/projects/interactiles/story-interactiles-oooz.jpg" alt="Use cases" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
-<hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Design</h2>
 The design process of Interactiles started in December 2023. We made sure to respect certain basic principles, such as modularity, no screen, and exclusively tactile controls. The buttons were to feel pleasant and as tactile as possible. The use case was not clear yet at this point, but we were determined that a clean and user friendly product would find its use case if it was designed to be user friendly enough.
 <div class="my-12 flex justify-center"><img src="images/projects/interactiles/story-interactiles-IERw.jpg" alt="Design sketches" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
@@ -392,14 +391,13 @@ The customer has since implemented many of the changes that I recommended and th
       "type": "Design",
       "date": "Feb 2024",
       "slug": "/p/010",
-      "skills": ["3D Modeling", "Electrical Design", "Industrial Design", "Laser Cutting", "Rapid Prototyping"],
+      "skills": ["3D Modeling", "Electrical Design", "Laser Cutting", "Rapid Prototyping"],
       "collaborators": [],
       "links": [],
       "story": `<h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Inspiration</h3>
 The idea for GlowGrid was born out of the long and anxious hours of the COVID-19 lockdown. I was stranded in a tiny studio apartment in a Tokyo suburb, having traveled there for an exchange semester but now too scared to leave. Not knowing when or if this lockdown would end but determined to not go insane, I committed myself to a series of new habits (mostly learning japanese, outdoor exercise).
 <div class="my-12 flex justify-center"><img src="images/projects/glow-grid/story-glowgrid-illuminating-the-journey-to-new-habits-wip-MIKE.jpg" alt="Tokyo lockdown" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">I found the most effective habit tracking tools to be visual reminders that would also show me my progress so far. I started off with posters and later progressed to rainbow scratch paper. I found myself craving that small reward of scratching off another day, and noticing a gap in my progress was just painful enough that I would try to prevent it.</p>
-<hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Iteration 1: Acrylic Prototype</h2>
 Even after lockdown ended, I found myself still using this method to track my habits (now reading books, meditating). I came across Simone Giertz’s "Everyday Calendar", which inspired me to build a more tangible and reusable version of this habit tracking system. The Everyday Calendar uses capacitive touch pads that light up when touched.
 <p class="mb-6 leading-relaxed text-gray-700">Preferring the idea of a more tactile experience, my first prototype consisted of an acrylic frame with an array of 31 illuminated neon rocker switches - one switch for each day.</p>
@@ -407,7 +405,6 @@ Even after lockdown ended, I found myself still using this method to track my ha
 <p class="mb-6 leading-relaxed text-gray-700">The idea worked well. I refined the design in CAD and improved the wiring to make it easier to assemble and repair. With the second version I had a product that was easy and safe enough to produce serially. I made 6 units in various colors for friends.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/glow-grid/story-glowgrid-illuminating-the-journey-to-new-habits-wip-PGlm.jpg" alt="Production units" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <div class="my-12 flex justify-center"><img src="images/projects/glow-grid/story-glowgrid-illuminating-the-journey-to-new-habits-wip-RAjh.jpg" alt="Multiple units" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
-<hr class="my-12 border-gray-200">
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Iteration 2: A Broader Canvas</h2>
 Encouraged by <a href="http://ruhry.at/en/work/items/untitled-hello-world.html" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">Valentin Ruhry's "Hello World"</a>, I have expanded GlowGrid's scope.
 <p class="mb-6 leading-relaxed text-gray-700">The next version of GlowGrid aims to be much larger than 31 switches – hopefully hundreds or thousands. Date labels will be omitted, the aim shifted towards a broader view of achievement: recognizing that progress isn’t always linear. The illuminated switches should appear like pixels, capturing the essence that every small effort contributes to the bigger picture.</p>
@@ -486,45 +483,36 @@ The project deliverable was a detailed offer to the customer, which proposed a m
       "id": "013",
       "thumbnailUrl": "images/projects/accessible-cooktops/thumbnail-making-cooktops-accessible-for-visually-impaired-Xy.jpg",
       "title": "Making Cooktops Accessible for Visually Impaired",
-      "description": "Innosuisse funded prototyping research project of solutions to make modern touch-controlled cooktops usable for users who are visually impaired",
+      "description": "Innosuisse funded prototyping research project of solutions to make modern touch-controlled cooktops usable for visually impaired users",
       "company": "SBV / HSLU",
       "status": "published",
       "type": "Research",
       "date": "Feb 2022",
       "slug": "/p/013",
       "skills": ["Design Research", "Prototyping", "Assistive Technology"],
-      "collaborators": [],
-      "links": [],
-      "story": `<h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Video by Innosuisse</h3>
-<div data-youtube-video=""><iframe src="https://www.youtube-nocookie.com/embed/_0n_z2QLrWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-<h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Article</h3>
-<a href="https://www.innosuisse.admin.ch/en/innovating-in-the-field-of-disability-through-co-creation" target="_blank" class="text-blue-600 hover:text-blue-800 underline underline-offset-4 decoration-2 transition-all font-medium">Innovating in the field of disability through co-creation (innosuisse.ch)</a>
-<hr class="my-12 border-gray-200">
+      "collaborators": [{"name": "Rayan Armani", "link": "https://rayanarmani.com"}],
+      "links": [{"label": "Innosuisse Article", "url": "https://www.innosuisse.admin.ch/en/innovating-in-the-field-of-disability-through-co-creation"}],
+      "story": `<div data-youtube-video=""><iframe src="https://www.youtube-nocookie.com/embed/_0n_z2QLrWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Project Details</h2>
 Industrial Design / concept development of solutions to make modern built-in glass ceramic and induction cooktops usable for users who are visually impaired. Solutions were conceptualized, prototyped, and tested in collaboration with the Swiss Blind Union SBV and HSLU.
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Team</h3>
 A partnership between HSLU Lucerne University of Applied Sciences and the Swiss Federation for the Blind, funded by the NTN Innovation Booster - Technology & Special Needs, backed by the Swiss Innovation Agency Innosuisse.
 <div class="my-12 flex justify-center"><img src="images/projects/accessible-cooktops/story-making-cooktops-accessible-for-visually-impaired-GoPU.jpg" alt="Project Team" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">The Team started with Luciano Butera (right), Head of Technology and Innovation at the Swiss Blind Federation (SBV) as the industrial partner, me as the project manager and researcher, and Norbert Meier, industrial designer and professor of Industrial Design at Lucerne University of Applied Sciences (HSLU) as the advisor. Once Innosuisse began funding the project, our main contact was Noémi Moulin (left), project coordinator for the NTN Innovation Booster - Technology and Special Needs.</p>
-<hr class="my-12 border-gray-200">
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Problem</h3>
 Many modern cooktops are controlled with a touch-control panel built into the smooth glass surface. These cooktops are typically pre-installed in kitchens of rental units and cannot be removed or replaced. Most do not have an interface for third party devices or control and rely exclusively on touch-controls making them useless to Visually impaired (VI) users. These touch-control cooktops must be retrofitted with a device that takes input from the user via conventional tactile knobs or buttons.
 <div class="my-12 flex justify-center"><img src="images/projects/accessible-cooktops/story-making-cooktops-accessible-for-visually-impaired-t9IY.jpg" alt="Touch control problem" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
-<hr class="my-12 border-gray-200">
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Task</h3>
 Develop one or several solutions to make existing modern touch-control cooktops accessible for users who are visually impaired.
-<hr class="my-12 border-gray-200">
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Development Process</h3>
 <div class="my-12 flex justify-center"><img src="images/projects/accessible-cooktops/story-making-cooktops-accessible-for-visually-impaired-o9AA.jpg" alt="Design thinking process" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">To develop ideas for concepts, the Design Thinking Method was used, including ideation techniques, shadowing and user workshops, and iterative prototyping using rapid prototyping such as 3D printing, lasercutting, and Arduino, testing each iteration with users along the way.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/accessible-cooktops/story-making-cooktops-accessible-for-visually-impaired-mcgy.jpg" alt="Prototyping iteration" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">The concepts ranged from very low tech, representing nothing more than a guide for the fingers, to relatively high tech, interfacing directly with the cooktop. Testing was conducted with visually impaired users: ideas were compared, some discarded, some new requirements added.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/accessible-cooktops/story-making-cooktops-accessible-for-visually-impaired-kCo4.jpg" alt="User testing" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
-<hr class="my-12 border-gray-200">
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Results</h3>
 The final concept consists of an “AutoClicker” module that is controlled wirelessly via low energy bluetooth. The AutoClicker controls leads that are attached to the glass surface with adhesive, one lead per touch button. These leads are recognized by the cooktop control panel just like a real finger. The bluetooth signal comes from a remote module with dials and other basic tactile input elements (switches, sliders, buttons). The user receives feedback via LEDs (90% of visually impaired users can still differentiate light and colors) and/or speakers that emit a short sound corresponding to the current cooktop setting.
 <div class="my-12 flex justify-center"><img src="images/projects/accessible-cooktops/story-making-cooktops-accessible-for-visually-impaired-A0pt.jpg" alt="Final system concept" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
-<hr class="my-12 border-gray-200">
 <h3 class="text-xl font-bold mt-10 mb-4 text-gray-900">Outlook</h3>
 Throughout the project, we developed several promising prototypes with potential for further refinement. For optimal results, collaboration with a kitchen appliance manufacturer would be beneficial. Their expertise would provide essential insights, market data, and valuable resources.
 <p class="mb-6 leading-relaxed text-gray-700">Our vision isn't limited to supporting only VI users. We're looking at a product that is inclusive for individuals with motor and cognitive challenges, and equally beneficial for the aging population. This endeavor emphasizes the importance of inclusive design, enhancing many lives.</p>
@@ -628,7 +616,7 @@ As offshore wind energy gains traction, most offshore wind turbines consist of a
       "title": "Freitag Labs x HSLU - Design Thinking Project",
       "description": "As a part of the course \\\"Innovation Project\\\", a new concept for the prompt \\\"individual logistics\\\" was iteratively designed for Freitag AG.",
       "company": "Freitag AG",
-      "status": "published",
+      "status": "unlisted",
       "type": "Business Development",
       "date": "Dec 2018",
       "slug": "/p/016",
@@ -652,17 +640,18 @@ The solution we chose was a bag with modular inserts that could be configured vi
       "thumbnailUrl": "images/projects/wallbo-social-robot/story-wallbo-social-robot-industrial-design-prototyping-IE7W.jpg",
       "title": "WallBo Social Robot: Industrial Design & Prototyping",
       "description": "Updating the physical design of a wall-mounted social robot to accommodate upgraded hardware and improve its friendliness for children.",
-      "company": "Personal Project",
-      "status": "unlisted",
+      "company": "ETH Zürich",
+      "status": "published",
       "type": "Industrial Design",
       "date": "Nov 2025",
       "slug": "/p/017",
-      "skills": ["3D Modeling", "Blender"],
+      "skills": ["3D Modeling", "Blender", "Electronics Integration"],
       "collaborators": [{"name": "Amol Deshmukh"}],
-      "links": [{"label": "Wallbo Case Study", "url": "https://arcaccelerator.io/case-studies/wallbo/"}],
+      "links": [{"label": "Wallbo Case Study", "url": "https://arcaccelerator.io/case-studies/wallbo/"}, {"label": "CHI Publication", "url": "https://dl.acm.org/doi/pdf/10.1145/3772363.3799114"}, {"label": "Demo Video", "url": "https://www.youtube.com/watch?v=qMXRR_eCMLY"}],
       "story": `<h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Original Project</h2>
 <p class="mb-6 leading-relaxed text-gray-700">WallBo is a wall-mounted social robot designed to encourage and monitor handwashing habits among children in schools. Developed to combat the spread of diseases like COVID-19 and reduce child mortality rates in developing countries, the robot uses AI to engage with students, making the hygiene process fun and interactive.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/wallbo-social-robot/story-wallbo-social-robot-industrial-design-prototyping-IE7W.jpg" alt="WallBo Robot" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<em>Image: Youtube</em>
 <h2 class="text-2xl font-bold mt-12 mb-6 text-gray-900 border-b border-gray-100 pb-3">Task</h2>
 <p class="mb-6 leading-relaxed text-gray-700">The objective was to update the robot's physical design to accommodate upgraded internal hardware - specifically an Nvidia Jetson edge computer and a larger touchscreen interface.</p>
 <p class="mb-6 leading-relaxed text-gray-700">Additionally, the project required a visual overhaul to make the robot's appearance friendlier and more approachable for its young user base.</p>
@@ -672,7 +661,8 @@ The solution we chose was a bag with modular inserts that could be configured vi
 <p class="mb-6 leading-relaxed text-gray-700">I modeled a new enclosure that securely housed the Nvidia Jetson and touchscreen while softening the overall aesthetic to improve its "friendliness" factor.</p>
 <div class="my-12 flex justify-center"><img src="images/projects/wallbo-social-robot/story-wallbo-social-robot-industrial-design-prototyping-Wnr1.jpg" alt="Enclosure Image" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
 <p class="mb-6 leading-relaxed text-gray-700">Once the design was finalized in CAD, I 3D printed the new housing and managed the assembly process, successfully integrating the new hardware into the redesigned chassis.</p>
-<div class="my-12 flex justify-center"><img src="images/projects/wallbo-social-robot/story-wallbo-social-robot-industrial-design-prototyping-NW4t.jpg" alt="Assembly Image" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>`
+<div class="my-12 flex justify-center"><img src="images/projects/wallbo-social-robot/story-wallbo-social-robot-industrial-design-prototyping-NW4t.jpg" alt="Assembly Image" class="max-w-full rounded-2xl shadow-xl border border-gray-100 cursor-zoom-in" loading="lazy" onclick="openLightbox(this.src)" /></div>
+<p class="mb-6 leading-relaxed text-gray-700">The new design was accepted and presented as the new "Wallbo 2.0" design for a submission to CHI 2026.</p>`
     },
     {
       "id": "3456",
