@@ -14,6 +14,7 @@ const profiles = {
             "7846", // Audio-to-Haptics Hardware Interface
             "008",  // InteracTiles
             "005",  // Foggy
+            "017",  // WallBo 2.0
         ],
         hiddenProjectIds: [
             "016",  // Freitag Labs x HSLU

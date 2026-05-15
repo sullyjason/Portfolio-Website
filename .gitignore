@@ -32,3 +32,9 @@ yarn-error.log
 # Build outputs (if any)
 dist/
 build/
+
+# Raw/source images (processed by generate_data.py → images/projects/)
+projects/*/images/
+
+# Vault (raw file dump, not part of the site)
+vault/
