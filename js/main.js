@@ -63,11 +63,6 @@ function renderPortfolioGrid() {
             ? `window.location.href='project.html?id=${project.id}'`
             : `openLightbox('${project.thumbnailUrl.replace(/'/g, "\\'")}'  , '${project.title.replace(/'/g, "\\'")}')`;
 
-        // Different icon for navigation vs lightbox
-        const overlayIcon = hasStory
-            ? `<svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>`
-            : `<svg class="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>`;
-
         const companyHtml = project.company
             ? `<div class="relative flex items-center text-xs font-medium text-gray-400 mb-1">
                  <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
@@ -86,11 +81,7 @@ function renderPortfolioGrid() {
                         loading="lazy" 
                     />
                     <!-- Overlay hint -->
-                    <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
-                        <div class="bg-white/90 backdrop-blur rounded-full p-2 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 shadow-lg text-gray-800">
-                            ${overlayIcon}
-                        </div>
-                    </div>
+                    <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
                 </div>
                 
                 <div class="px-5 py-4">
