@@ -1375,6 +1375,14 @@ button {
     margin: 1.5rem 0 0.75rem;
 }
 
+/* Keep captions tight under their image. Image wrappers (.my-12) normally have
+   a 3rem bottom margin for spacing between story blocks, but when one is
+   immediately followed by a caption we drop that margin so the caption sits
+   right under the photo — the caption's own margin-bottom spaces the next block. */
+.project-story > div.my-12:has(+ em) {
+    margin-bottom: 0;
+}
+
 .project-story > em {
     display: block;
     font-size: 0.75rem;
