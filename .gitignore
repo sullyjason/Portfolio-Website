@@ -38,3 +38,4 @@ projects/*/images/
 
 # Vault (raw file dump, not part of the site)
 vault/
+regenerate.command

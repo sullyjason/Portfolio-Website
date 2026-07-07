@@ -1,0 +1,504 @@
+[
+  {
+    "id": "001",
+    "title": "Mood logger - A fidget cube to track your mood (WIP)",
+    "description": "A non-invasive, fidget toy-like device designed to track emotional patterns over time.",
+    "company": "Personal Project",
+    "status": "published",
+    "type": "Interaction Design",
+    "date": "Nov 2025",
+    "slug": "/p/001",
+    "thumbnailUrl": "images/thumbnail-emotion-tracking-assistant-vv.png",
+    "skills": [
+      "Industrial Design",
+      "Qualitative Data",
+      "User-centered Design",
+      "Affective Technology",
+      "ESP32"
+    ],
+    "collaborators": [],
+    "links": [],
+    "story": "### The Challenge of Mood Tracking\nI aimed to create a more reliable way to track mood over time, recognizing that understanding the patterns and triggers behind emotional shifts is a crucial first step toward better self-regulation. My initial thought was to design an ambient \"companion device\" that would use colored lights to visualize mood. I believed this would be a calming and grounding presence.\n\n![Companion device sketches](images/story-emotion-tracking-assistant-eeWi.png)\n\nHowever, I quickly realized a critical flaw: such a device could have the negative effect of constantly reminding users of their bad moods, which is counterproductive for many who struggle with anxiety or depression.\n\n## Mood tracking apps\nIn order to capture a wider timeline of emotions, not just those occurring while around the physical device, I explored mood-tracking apps. A common issue I noticed was that most relied on a one-dimensional \"Bad-to-Good\" scale, which I found inaccurate. The *How We Feel* app, which organizes emotions based on the two dimensions of **valence** (pleasantness) and **arousal** (energy), offered a much more accurate model.\n\n![How We Feel app UI](images/story-emotion-tracking-assistant-2Kgl.png)\n*Screenshot: How We Feel App*\n\nWhile this was app was surprisingly effective for building emotional vocabulary, it led to a new problem: I became an expert at describing negative states but rarely remembered to log positive ones. The act of sifting through negative terms to find the right one often led to a feedback loop that often deepened my negative mood.\n\n### Mood tracking fidget cube\nPrompted by a therapist's suggestion, I decided to simplify the process by logging emotions into the four quadrants of valence and arousal. I designed a new prototype: a tactile, fidget cube-like device for simple, non-invasive input. The act of fidgeting can be a subconscious activity, which theoretically limits the negative feedback loop I experienced with most of the apps.\n\n![Fidget prototype parts](images/story-emotion-tracking-assistant-Npey.png)\n\nThe prototype features four tactile buttons, each with a unique texture corresponding to one of the four quadrants. I designed the electronics and 3D-printed the enclosure and various tactile button caps. The internal hardware includes an ESP32S3 microcontroller, a real-time clock, and a small battery.\n\nEvery button press is logged with a timestamp into a CSV file, which can be extracted via Wi-Fi or USB. This data can then be easily plotted against other metrics, such as health data or calendar events, to reveal meaningful patterns.\n\n### Future Development\nThe next steps for this project involve developing the firmware to ensure a seamless and user-centric experience. I'm also planning to design a magnetic docking station to simplify charging and data transmission. In parallel, I will start collecting data by logging my own moods using this device."
+  },
+  {
+    "id": "002",
+    "title": "Puppet Synthesizer - Audiovisual Installation",
+    "description": "Designing the user interface and playable interactive installation for The Museum of the Future at ZHdK Museum für Gestaltung Zürich.",
+    "company": "ZHdK / Museum für Gestaltung",
+    "status": "published",
+    "type": "Interaction Design",
+    "date": "Feb 2025",
+    "slug": "/p/002",
+    "thumbnailUrl": "images/thumbnail-puppet-synthesizer-audiovisual-installation-wip-9b.png",
+    "skills": [
+      "Electronics Hardware Design",
+      "Graphic Design",
+      "Unity 3D"
+    ],
+    "collaborators": [
+      {
+        "name": "Lisa Bach",
+        "link": "https://lbach.cargo.site/"
+      },
+      {
+        "name": "Jan Hügli"
+      },
+      {
+        "name": "Jan Thürig",
+        "link": "https://www.linkedin.com/in/jan-thuering-144724350/"
+      },
+      {
+        "name": "Jan Espig",
+        "link": "https://www.linkedin.com/in/jan-espig-642480186/"
+      },
+      {
+        "name": "David Bock",
+        "link": "https://davidbock.ch/"
+      },
+      {
+        "name": "Lars Kristian"
+      }
+    ],
+    "links": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/sullyjason/PuppetSynthesizer"
+      },
+      {
+        "label": "Museum für Gestaltung",
+        "url": "https://museum-gestaltung.ch/de/ausstellung/museum-future"
+      }
+    ],
+    "story": "For the Exhibition [\"Museum of the Future\"](https://museum-gestaltung.ch/de/ausstellung/museum-future) in the fall of 2025, Zürich's Museum für Gestaltung commissioned ZHdK to develop a series of interactive installations paying tribute to Sophie Täuber Arp's infamous wooden marionettes that she created for the play *King Stag*.\n\n![Panel closeup](images/panel_closeup.jpeg)\n\n\n## Concept\nPuppet Synth is a digital reinterpretation of Sophie Taeuber-Arp’s avant-garde puppetry for King Stag, breaking with traditional visual and performative conventions. Inspired by Rudolf Laban’s choreographic notation and Taeuber-Arp’s expressive dance practice, this project brings the puppets’ gestures into the digital realm. Users are invited to choreograph puppet movements themselves. Visually, Puppet Synth renders these complex motion sequences as wave-like frequency patterns, making them both tangible and analyzable.\n\n## Team\nThe team consists of five members coming from various disciplines.\n- Lisa Bach - Unity 3D and creative direction\n- Silvan Roth - Interface design and hardware\n- Jan Hügli - Prototyping and production\n- Jan Thürig - Unity 3D and firmware\n- Jan Espig - Visual design\n- David Bock & Lars Kristian - Sound design\n\n## Ideation\nThe original idea revolved around animating a marionette by controlling a series of waves or frequencies through an experimental and highly tactile interface.\n\n![Concept idea sketches](images/story-puppet-synthesizer-audiovisual-installation-wip-lkla.png)\n\nWe were inspired by the revolved wooden shapes that make up Sophie Täuber-Arp's marionettes and the Labanotation, a system for analyzing and recording human movement such as dance.\n\n![Labanotation inspiration](images/story-puppet-synthesizer-audiovisual-installation-wip-na3G.png)\n\n## Prototyping\nDeveloping the concept involved a few iterations of physical prototyping and experimentation in Unity 3D. The aim was to develop an interaction that would spark curiosity in the user, encouraging them to rearrange physical blocks that would then have an effect on the animation.\n\n![Interaction prototyping](images/story-puppet-synthesizer-audiovisual-installation-wip-Z5lc.png)\n\nTo test these conceptual interactions we experimented with various arduino compatible sensors, linear potentiometers, 3D printed caps and joysticks.\n\n![Sensors prototyping](images/story-puppet-synthesizer-audiovisual-installation-wip-3eIl.png)\n\nIn later iterations we limited the possible inputs to a few dimensions. The interface gradually took on the style of an audio synthesizer.\n\n## Implementation\n\n### Interface\nThe interface consists of 5 types of inputs: rotary switches, smooth rotary potentiometers, linear potentiometers (faders), and momentary 3 position toggle switches.\n\n![Interface design](images/story-puppet-synthesizer-audiovisual-installation-wip-NhtB.png)\n\nThe final version was designed in KiCad and exported into OnShape for the final panel dimensions.\n\n![KiCad/OnShape](images/story-puppet-synthesizer-audiovisual-installation-wip-NSaH.png)\n\nThe panel was designed to not be overly explicit in its functionality but still give users a sense of control, so the various actions can be learned over time. The layout guides the user through the interaction in a logical sequence, and the knobs were chosen with their affordances in mind, creating a cohesive experience with what is happening on screen.\n\n![Final Panel](images/story-puppet-synthesizer-audiovisual-installation-wip-C6xP.png)\n\n### Visual Style\nWe went through a series of iterations before settling on a visual style for both the marionette and the wave visualization.\n\n![Visual Style Iterations](images/story-puppet-synthesizer-audiovisual-installation-wip-883q.png)\n\nThe final visual style takes inspiration from Sophie Täuber-Arp's minimal color palette and simple revolved shapes that make up the marionettes.\n\n![Final Visual Style](images/story-puppet-synthesizer-audiovisual-installation-wip-8urO.png)\n\n## Experience\nThe audience stands in front of the physical interface facing a vertically oriented screen, where a puppet is seen dangling in front of a slow sine wave. As the interface is operated, the wave and audio changes and the puppet jumps to life.\n\n![Installation View](images/story-puppet-synthesizer-audiovisual-installation-wip-Dqg4.png)\n\n## Installation\nThe installation is currently being exhibited at the [Design Museum in Zürich](https://museum-gestaltung.ch/de/ausstellung/museum-future) as a part of the theme \"Museum of the Future\". The exhibition aims to use digital means to make accessible to the audience cultural artifacts that are otherwise difficult or impossible to experience – because they are long gone, do not yet exist, are too large or too small, or would be too fragile for the public to interact with.\n\n![Museum View](images/story-puppet-synthesizer-audiovisual-installation-H62q.jpeg)\n*Photo: Museum für Gestaltung Zürich*"
+  },
+  {
+    "id": "003",
+    "title": "Wearable Sensor Docking Station",
+    "description": "Developing and building a modular docking station to take the hassle out of running wearable device studies.",
+    "company": "SIPLab, ETH Zürich",
+    "status": "published",
+    "type": "Industrial Design",
+    "date": "Apr 2025",
+    "slug": "/p/003",
+    "thumbnailUrl": "images/thumbnail-wearable-sensor-docking-station-g7.png",
+    "skills": [
+      "CAD",
+      "Industrial Design",
+      "PCB Design"
+    ],
+    "collaborators": [
+      {
+        "name": "Manuel Meier",
+        "link": "https://www.linkedin.com/in/meierman/"
+      }
+    ],
+    "links": [],
+    "story": "## Task\nThe task was to design a docking station (called the \"BaseStation\") to simplify the charging, data transmission, and synchronization of devices such as wearables used in data collection studies. The BaseStation was to offer flexibility and broad device compatibility while maintaining a compact footprint and ease of manufacturing and assembly. I was to design both this interface, the electronics, enclosure, integration, and a framework for making new or existing devices compatible with this device.\n\n![Photo of final product, enhanced ligthing using AI](images/render_open.png)\n\n## Prototyping\nIterative prototyping made up the core of this project: it was crucial to get the device interface right before we continued to the enclosure, which could easily be modified later on. I began with primitive cardboard models to get a feel for the usability and then gradually moved on to more high fidelity protyping like 3D modeled parts.\n\n![Cardboard and 3D prototyping](images/story-wearable-sensor-docking-station-r512.png)\n\n## Design\nA core problem of the intended docking station was that it would need to have a modular design that can be scaled to both any number of devices and any dimensions of device. The interface should be flat and as subtle as possible, it should be easy to integrate into any enclosure, but should still allow for data transmission and ideally additional inputs or outputs to interface with the docking station itself.\n\n![Design iterations](images/story-wearable-sensor-docking-station-jTYO.png)\n\nThe solution was a 5 pin magnetic pogo pin connector: flat, corrosion resistant (suitable for situations where sweat is an issue, for instance), with a small notch for positioning and to prevent the pins from being connected in reverse.\n\n![Magnetic connector](images/pogo-pin-prototype.png)\n\n### Electronics\nEach interface needed a small PCB to handle the programmable LED and safely handle the USB to pogo pin conversion. I created a schematic and designed a PCB in KiCAD which I then ordered from JLCPB and assembled by hand.\n\n![PCB Design](images/story-wearable-sensor-docking-station-ynXr.png)\n\n### Enclosure\nDesigning the enclosure involved sketching, foam modeling, and finally 3D printing.\n\n![Enclosure sketching](images/sketch.png)\n\nWhile visual aesthetics were not an explicit key requirement, I was determined to maintain a clean look with clear affordances, designed to be easy to manufacture and assemble, and modify later on.\n\n![Final enclosure design](images/story-wearable-sensor-docking-station-LTRG.png)\n\n### Integration\nThe final stage involved integrating the modular electronics into the enclosure in a way that would allow for easy assembly and disassembly, used standard fasteners and minimal or no adhesives, and involving as few custom parts as possible.\n\n![Integration](images/story-wearable-sensor-docking-station-MDtA.png)\n\n### Manufacturing\nAfter a few iterations on small commercial 3D printers to dial in thicknesses and tolerances, I ordered the final versions through a 3D printing service (JLC3D).\n\n![Manufacturing](images/story-wearable-sensor-docking-station-YRtq.png)\n\n### Outlook\nThe next stage is for the docking station to go through rigorous real world testing before being redesigned for manufacturing.\n\n![Final Device](images/story-wearable-sensor-docking-station-uMoO.png)"
+  },
+  {
+    "id": "004",
+    "title": "Where the River Hides - Design interventions for an overheating river",
+    "description": "An interdisciplinary research project that engages communities to contribute to river revitalization efforts",
+    "company": "ZHdK / Ars Electronica",
+    "status": "published",
+    "type": "Exhibition",
+    "date": "May 2025",
+    "slug": "/p/004",
+    "thumbnailUrl": "images/thumbnail-where-the-river-hides-design-interventions-for-an-overheating-river-JT.png",
+    "skills": [
+      "Environmental Design",
+      "Research",
+      "Community Engagement"
+    ],
+    "collaborators": [
+      {
+        "name": "Dominic Sutter",
+        "link": "https://dominicsutter.ch"
+      },
+      {
+        "name": "Silvana De Paola",
+        "link": "https://silvanadepaola.ch/"
+      }
+    ],
+    "links": [
+      {
+        "label": "Ars Electronica Page",
+        "url": "https://ars.electronica.art/panic/de/view/where-the-river-hides-21e38ddb450c81ef9d1ae97eb74e55b7/"
+      }
+    ],
+    "story": "“Where the River Hides” is an interdisciplinary research project that brings together knowledge from diverse fields and engages communities to contribute to river revitalization efforts. The exploration took place along the Töss River in eastern Switzerland, where aquatic natives such as the brown trout and minnow are increasingly threatened by heatwaves that devastate their populations.\n\nOur aim was not only to explore technical solutions to these challenges but also to find sustainable ways to engage both local communities and visitors in making small but cumulative contributions to river revitalization.\n\n![River research](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-G6Ve.jpg)\n\n## Working with Ecological Interconnectivity\nRivers are habitats, breeding grounds, and migration corridors– veins that connect ecosystems. Their ecological interdependence presents challenges for urban planning and conservation. Climate change and human intervention amplify issues like overheating, drought, and flash floods, making it clear that solutions must work with, not against, natural systems.\n\n![Ecological maps](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-i4S2.png)\n\n### Designing Interventions\nDrawing from environmental engineering and ecology, we found that the most effective solutions are often surprisingly simple: offering aquatic species hideouts, shade, and a steady flow of fresh water. Civil engineering introduced us to flow deflections: techniques that use fluid dynamics to subtly reshape the river’s course and improve habitats along the riverbed and undercut banks. Local fishing associations have long applied this knowledge in small- to medium-scale interventions, while community-led flood protection efforts use woven willow branches to reinforce riverbanks.\n\n![Flow deflections](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-Ne1h.png)\n\n\nOur proposal combines these approaches: a woven willow obstacle that redirects the river’s flow, deepens the riverbed, and erodes part of the bank to form a shaded refuge pool. Vegetation helps stabilize the structure, provides natural shade, and integrate it into the ecosystem.\n\n![Willow structure](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-kh9u.jpeg)\n\n### A Vision of Community-Led Revitalization\nPlanned river restoration is slow, costly, and politically complex. But we believe healthy ecosystems shouldn’t depend entirely on urban planning budgets. While large-scale projects appeal through promises of recreation, we see value in engaging people directly.\n\n![Community visualization](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-wFmz.png)\n\nOur structures are designed to be built gradually, with no technical skill required, yet robust enough to let the river and vegetation take over. This approach offers locals and visitors a tangible, meaningful way to interact with and care for nature.\n\n## Ars Electronica 2025\nWe exhibited this project at the 2025 Ars Electronica festival under the theme \"Not Plan B\", an exhibition on ecological interactions. Instead of focusing on the technical implementation of the intervention, we emphasized the playful and low-tech nature of the idea by printing an explanation onto analog slides, viewable through a View-Master from the 1980s.\n\n![Ars Electronica exhibition](images/story-where-the-river-hides-design-interventions-for-an-overheating-river-O4Uq.png)"
+  },
+  {
+    "id": "005",
+    "title": "Foggy - seeing reality in low res",
+    "description": "Less pixels for more realism: Using a diffused low resolution LED matrix to create impressionistic abstractions of recognizable scenes and video sequences",
+    "company": "ZHdK",
+    "status": "published",
+    "type": "Interaction Design",
+    "date": "Sep 2024",
+    "slug": "/p/005",
+    "thumbnailUrl": "images/thumbnail-foggy-seeing-reality-in-the-low-res-SQ.jpeg",
+    "skills": [],
+    "collaborators": [],
+    "links": [],
+    "story": "![Foggy Main](images/story-foggy-seeing-reality-in-the-low-res-CaBb.jpeg)\n\n## Idea\nA part of a 3 week studio class in the Masters program in Interaction Design, the aim was to explore the of capture and representation of reality through visual means.\n\nI often contemplated the concept of \"Resolution\". I thought it was interesting that we are converging on this near-perfect resolution representation of both 2D and 3D objects but wanted to question to what extent this is needed. I wanted to investigate whether very low-resolution visuals could have similarly powerful subconscious effects as higher resolution visuals, thus exploring whether the visual resolution was really a relevant factor in convincing us that something is \"real\".\n\nThe idea was to create a \"portal to another place via a pixelated camera\" (see sketch below), not meant to provide the user with accurate data but simply conveying a vague impression of the other place. If there are people moving on the other side, the idea was to let the user feel this presence, possibly even alleviating feelings of loneliness (even if subconscious).\n\n### Inspiration\nI was inspired by artists such as Jim Campell (middle) and design studios such as (now closed) designaffairs (middle bottom). I thought about how we diffuse \"real\" light, such as with frosted or patterned glass and blinds. These filters intentionally spread light and blur our perception of what's behind them, but for some reason it is still very apparent to us that what's behind them is real. Why is that?\n\n![Inspiration](images/story-foggy-seeing-reality-in-the-low-res-co7K.png)\n\n---\n\n## Process\nDue to the limited amount of time I intended to use supplies I already had for prototyping.\n\n1. The original idea involved using an ESP32CAM to stream live footage to another ESP32 controlling a 64x64 LED Matrix via the HUB75 interface.\n2. I quickly realized that it might be easier to demonstrate using a Raspberry Pi due to its memory and processing capabilities, as I was intending to control quite a large amount of LEDs.\n3. I finally decided that demo videos would likely be more effective to convey my message, letting me choose what scene I want to show and being much simpler to implement technically. I also decided to switch to an existing 8x8 LED Matrix that I already had, as its form factor made it easy to transport and I didn't need to build my own grid from one long string of LEDs.\n\n![Process](images/story-foggy-seeing-reality-in-the-low-res-CdgA.png)\n\n---\n\n## Implementation\nI used the following process to display videos on the 8x8 LED Matrix:\n\n![Implementation Flow](images/story-foggy-seeing-reality-in-the-low-res-Yjpz.png)\n\n### Videos\nAs my initial idea was to create a blurry window to another place, I started by taking videos from real life. This process turned out to be surprisingly meditative - I walked around areas in Zürich such as Irchel park, Toni Areal and the Hardbrücke looking for scenes or elements that you would expect to see through a window. Ideally they had to contain high contrast and some organic movement, as my theory was that this movement would be what makes it recognizable later.\n\n![Zürich videos](images/story-foggy-seeing-reality-in-the-low-res-7eg2.png)\n\nLater I added iconic movie scenes to the collection.\n\n![Movie scenes](images/story-foggy-seeing-reality-in-the-low-res-8KD6.png)\n\n### Code\nThis script cropped the selected videos to a square format, scaled them down to 8x8 pixels, and extracted pngs of the frames at a defined FPS, saved in a folder called \"frames\":\n\n![Code segment](images/story-foggy-seeing-reality-in-the-low-res-qRIl.png)\n\nTo output videos on the LED matrix, a python script iterates through all the frames in the folder and displays them on the neopixel grid sequentially, making it appear animated.\n\n![More code](images/story-foggy-seeing-reality-in-the-low-res-j8Y2.png)\n\n### Hardware\n![Hardware setup](images/story-foggy-seeing-reality-in-the-low-res-PyUu.png)\n\nThe hardware currently consists of a 8x8 WS2811 LED Matrix connected to a Raspberry Pi 3 via the GPIO 18 and GND pins, powered by 5V from a USB-C power delivery board (allowing it to draw as much current as it might need) and using a level shifter breakout board to convert the Raspberry Pi's 3.3V logic to the 5V logic required by the Neopixels. I developed on the Raspberry Pi in a headless setup using VNC viewer, connected via ethernet.\n\n![Pi setup](images/story-foggy-seeing-reality-in-the-low-res-034U.png)\n\n### Light diffusers\nOnce the electronic setup worked and I was ready to develop the light diffusers. I laser-cut square acrylic panels and sandblasted them to give them the frosted finish. I found that changing the brightness of the LEDs, the distance of a diffuser to the LED panel, the amount of sequential diffusers, and the amount that they were diffusing light all influenced how foggy the image looked. I decided to turn this into a feature of the final result - a slide system that let you change the amount of diffusion by removing or adding diffusion slides to the enclosure holding the Raspberry Pi and LED Matrix.\n\n![Diffuser slides](images/story-foggy-seeing-reality-in-the-low-res-3b8u.png)\n\n### Enclosure\nFor this I 3D printed an enclosure, consisting of a base and a lid, connected with M2 screws and threaded inserts. An opening at the top of the LED matrix allows the user to switch out diffuser slides. The enclosure unintentionally ended up looking retro and cute, almost looking like a cartoon snail. I liked this aesthetic, as it felt inviting and matched the playful element of the light diffuser interaction.\n\n![3D enclosure](images/story-foggy-seeing-reality-in-the-low-res-l9ZJ.png)\n\n---\n\n## Final product\nThe final product looks as follows. I powered both the Raspberry Pi and the LED matrix with the same power supply and automated the execution of the python scripts when the Pi is powered on, using a system service file. Once the python script was animating the LEDs, I had four slides with different levels of diffusion that I moved around to show the change in appearance. I played an animation of a public space (example used previously), the *Titanic* bow scene, and short segment of \"The Circle of Life\" from *The Lion King*.\n\n![Final Result](images/story-foggy-seeing-reality-in-the-low-res-sNKS.jpeg)\n\n### Limitations and improvements\nThe current version is limited in a few ways that, in a next version, could be improved as follows:\n- Memory of the Raspberry Pi - Use a newer Raspberry Pi or optimize code to pre-load all the image data more efficiently. Consider converting to BMP instead of PNG for more efficient rendering.\n- Color accuracy and contrast - implement gamma correction and color correction filters.\n- Occasional glitching - Possibly due to fluctuations in current, LED matrix acts erratically sometimes. Other potential causes might be poor connections (I have been using dupont connectors), the quality of the LED matrix, signal noise caused by the level shifter. Using a high quality power brick and cable helps."
+  },
+  {
+    "id": "006",
+    "title": "Rebuilding the CLAW - a VR Controller with tactile feedback",
+    "description": "Rebuilding and iterating upon a VR controller prototype for the HCI research lab at ETH",
+    "company": "ETH Zürich",
+    "status": "published",
+    "type": "Research",
+    "date": "Aug 2024",
+    "slug": "/p/006",
+    "thumbnailUrl": "images/thumbnail--ey.jpeg",
+    "skills": [
+      "3D Printing",
+      "Electronics Hardware Design",
+      "Industrial Design",
+      "Prototyping"
+    ],
+    "collaborators": [
+      {
+        "name": "Rayan Armani",
+        "link": "https://rayanarmani.com"
+      }
+    ],
+    "links": [
+      {
+        "label": "CLAW Original Paper",
+        "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2018/03/CLAW_Choi_et_al_CHI2018.pdf"
+      },
+      {
+        "label": "CRAEFT Website",
+        "url": "https://www.craeft.eu/"
+      },
+      {
+        "label": "CRAEFT Report",
+        "url": "https://www.craeft.eu/wp-content/uploads/2025/04/D4.2_v2.pdf"
+      }
+    ],
+    "story": "## Task\nTo rebuild the original CLAW Controller, a haptic VR controller with force simulation, designed by Inrak Choi at Microsoft Research in 2018.\n\n\"CLAW is a handheld virtual reality controller that augments the typical controller functionality with force feedback and actuated movement to the index finger. Our controller enables three distinct interactions...and changes its corresponding haptic rendering by sensing the differences in the user’s grasp\" (Choi et al, 2018)\n\n![CLAW Main](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-T9ED.png)\n\n### Role\nPCB design, CAD modeling and fabrication, firmware and documentation\n\n---\n\n## Process\n\n### Version 1\nThe first iteration of the rebuilding the controller according to the original documentation provided in the paper.\n\n![Version 1 breadboard and protoboard version](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-KvHU.png)\n\n### Version 1.1\nBetween the first and final version there was an attempt to rebuild the controller from the ground up, optimizing the ergonomics and industrial design by moving the servo arm downward.\n\n![Ergonomics sketches](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-fu8t.png)\n\nI tested the form with foam and cardboard, then 3D scanned and imported this into CAD, where a built a parametric model for 3D printing.\n\n![Ergonomic redesign: from foam to 3D print](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-1w6r.png)\n\nDue to time constraints we decided to focus on improving the electronics and code rather than the industrial design, and this version of the controller was shelved.\n\n---\n\n### Version 2\nThe second iteration of the controller was a slimmed down, more compact version based on the original designs. I designed a PCB to hold the microcontroller, the load cell amplifier, and the vibration motor driver circuitry.\n\n![First PCB Iteration](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-0r6X.png)\n\nSome components from the servo arm were improved and I designed a custom Meta Quest 3 controller adapter which could be used for more accurate hand tracking, if needed.\n\n![Quest 3 Adapter](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-vWRD.png)\n\nThe controller's firmware was written entirely in Arduino C, using the serial monitor as the interface to read sensors and send commands. A Unity build can then talk to the controller to allow the user to control and interact with their virtual reality environment.\n\n![Technical diagram and final equipment as shipped](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-6j53.png)\n\n### Revision\nTesting showed a few mechanical failure points, which led us to fabricate one final version. We took this opportunity to revise the PCB and polish the appearance. The parts were SLA printed in black nylon.\n\n![Improved black nylon version](images/story-rebuilding-the-claw-a-vr-controller-with-tactile-feedback-yCtc.png)\n\n---\n\n### Use Case\n\nThis controller was built for a CRAEFT (Craft Understanding, Education, Training, and Preservation for Posterity and Prosperity) project, an EU-funded project aiming to catalyze the education and preservation of traditional crafts such as glassblowing, woodworking, and tapestry through digital media such as virtual reality. \n\n![Digitally capturing the glassmaking process](images/craeft_glass.png)\n*Photos: craeft.eu*"
+  },
+  {
+    "id": "007",
+    "title": "Wearable Devices Prototyping",
+    "description": "Developing prototypes for smart watches and wearable sensors.",
+    "company": "ETH Zürich",
+    "status": "published",
+    "type": "Prototyping",
+    "date": "Jul 2024",
+    "slug": "/p/007",
+    "thumbnailUrl": "images/thumbnail-wearables-prototyping-6l.jpg",
+    "skills": [
+      "3D Printing",
+      "PCB Design",
+      "Rapid Prototyping"
+    ],
+    "collaborators": [
+      {
+        "name": "Xintong Liu"
+      }
+    ],
+    "links": [],
+    "story": "![Wearables Main](images/story-wearables-prototyping-FWRY.png)\n\n### Problem\nDeveloped as part of a study on hand gesture sensing through photoplethysmogram (PPG) sensor data and machine learning, the challenge was to develop a series of prototypes that would allow the lab to perform the user studies.\n\n![Sensors Detail](images/story-wearables-prototyping-KThv.png)\n\n### First tests\nPPG is a technique commonly used for pulse measurement in smart watches. The original idea was to modify existing PPG sensing development boards, enlarging their light sensor rings and repositioning the sensors from the volar (bottom) wrist to the dorsal (top) wrist.\n\n![First iterations](images/story-wearables-prototyping-w11f.png)\n\nDesigns were created in KiCad and Autodesk Fusion, 3D printed in PLA on an Ultimaker 4.\n\n### Second iteration\nThe second iteration aimed to be as compact as possible, packaging all components into one module, rather than having a dorsal and a volar element connected by fragile flat band cables.\n\n![Compact iteration](images/story-wearables-prototyping-eQLo.png)\n\n### Later versions\nA later version required an IMU sensor and a touch screen, both which we found in an ESP32 smart watch development board. The tradeoff was a much larger enclosure and a dual USB-C port.\n\n![ESP32 smartwatch version](images/story-wearables-prototyping-Y1Hd.png)"
+  },
+  {
+    "id": "008",
+    "title": "InteracTiles - Tactile Interactive Installation (WIP)",
+    "description": "Building a grid of glowing clickable pixels to stay connected in a tangible way",
+    "company": "Personal Project",
+    "status": "published",
+    "type": "Design",
+    "date": "Feb 2024",
+    "slug": "/p/008",
+    "thumbnailUrl": "images/thumbnail-interac-tiles-tactile-interactive-canvas-wip-aw.png",
+    "skills": [
+      "Electro-Mechanical Design",
+      "Industrial Design",
+      "Interaction Design",
+      "Rapid Prototyping"
+    ],
+    "collaborators": [
+      {
+        "name": "Andy Kong",
+        "link": "https://andykong.org/"
+      }
+    ],
+    "links": [],
+    "story": "## Idea\nDeveloping an interactive grid of buttons that light up and change colors when pressed, designed to communicate, connect, and create art across distances. Each grid is connected via the internet to a corresponding grid, allowing users to share visual messages in real-time.\n\nThis project explores the fusion of technology and creativity, aiming to understand how we interact with digital interfaces on a personal and communal level.\n\n![InteracTiles AI Renders](images/story-interactiles-jw7P.png)\n*Renders generated using photoshop and AI tools illustrating two possible scales of this project*\n\n## Inspiration\nThe main sources of inspiration for this project stemmed from the following:\n- The reddit project r/place, a digital online canvas allowing the entire online community to collectively create pixel art.\n- Valentin Ruhry’s and Simone Giertz’s grids of illuminated switches.\n- “The Everbright”, an installation seen at the San Jose Science Museum in 2021.\n\nAndy developed a physical version of r/place in 2023 with [GridWorld](https://andykong.org/projects/gridworld/), a virtual canvas that was displayed in real time on a physical LED screen. My own ideas came from previous projects such as [GlowGrid] and my work in tactile user interfaces.\n\n## Use cases by configuration\nThe following are some of the potential use cases for this project. We have not yet attempted to evaluate the feasibility of each of the ideas to narrow down the scope of the project, as we believe users will find their own unique and creative uses for the product once they are given access.\n\n![Use cases](images/story-interactiles-oooz.png)\n\n## Design\nThe design process of Interactiles started in December 2023. We made sure to respect certain basic principles, such as modularity, no screen, and exclusively tactile controls. The buttons were to feel pleasant and as tactile as possible. The use case was not clear yet at this point, but we were determined that a clean and user friendly product would find its use case if it was designed to be user friendly enough.\n\n![Design sketches](images/story-interactiles-IERw.png)\n*Sketches of initial ideas for different form factors*\n\n![Morphological box](images/story-interactiles-wip-jOar.png)\n*Morphological box used to make sense of all the possible designs that could be pursued*\n\n### Iteration 1\nA first iteration was designed using non-intelligent tactile RGB Switches and an ESP32 microcontroller.\n\n![Iteration 1](images/story-interactiles-wip-xLlY.png)\n*ESP32 prototyping with non-intelligent, standard tactile RBG switches.*\n\n### Iteration 2\nThe second iteration used the same RGB switches but a smaller microcontroller and ICs to control the RGB channels, rather than addressing each color individually. This model is fully compatible with the original prototype. Four fully functional 2x2 Interactiles are currently assembled.\n\n![Modular setup sketches](images/story-interactiles-RsOV.png)\n*Modular setup sketches (left-center left) and a setup using keyboard keys and intelligent RGB LEDs.*\n\n![Prototyping switches](images/story-interactiles-wip-ygmw.png)\n*Prototyping with different sizes and types of tactile switch. PCB Design with KiCAD, manufactured through JLCPCB.*\n\n![Design to enclosure](images/story-interactiles-wip-W1zg.png)\n*From schematic to enclosure design for the second iteration of the 2x2 Interactiles.*\n\n![Completed 2x2 PCBs](images/story-interactiles-wip-qB72.png)\n*Completed 2x2 Interactiles PCBs, with and without 3D printed enclosures. A dip switch on the back of the PCB was added to allow users to select their \"channel\" - with the idea that all Interactiles on the same channel would display the same colors.*\n\n### Networking\nInteractiles is a project about enabling connection, so a key feature must be that they can interface with each other. I started with a HTTP web server and an webpage to emulate a second Interactile while I iterated on the firmware. Once this was stable, I switched to a more efficient MQTT structure, in which each individual pixel is subscribed to or posts to a channel containing an RGB value. Like this, pressing a button to change the color of the pixel will post the change on the MQTT server, which will be read by any corresponding subscribed pixels. This happens quickly enough that it appears that all pixels are changing perfectly in sync.\n\n![Networking sync](images/story-interactiles-tactile-interactive-canvas-wip-SCxg.png)\n\n### Scaling up (WIP since Sept 2024)\nThe next step is to build a bigger grid of pixels. I am currently working on designing one 10x6 matrix using the largest available switches and one miniaturized version of the same matrix size using the smallest available buttons.\n\n![Scaling up](images/story-interactiles-tactile-interactive-canvas-wip-P9ON.png)"
+  },
+  {
+    "id": "009",
+    "title": "UX Consulting and Redesign",
+    "description": "Redesigning a startup's product configurator page to boost user experience and engagement",
+    "company": "Startup Consulting",
+    "status": "published",
+    "type": "UX Design",
+    "date": "Feb 2024",
+    "slug": "/p/009",
+    "thumbnailUrl": "images/thumbnail-ux-consulting-XY.png",
+    "skills": [
+      "Design Consulting",
+      "User Experience",
+      "User Research"
+    ],
+    "collaborators": [],
+    "links": [],
+    "story": "## Task\nContracted by a startup in eastern Switzerland that specializes in the creation of curated lists of contacts and sales leads. The startup lets their users select which kind of leads they are looking for using a configurator, then automatically creates a quote.\n\nThe customer felt that this experience could be improved.\n\n## Process\nWe began on-site by conducting a series of user tests, some with existing users and some with new users that were unfamiliar with the product.\n\n![User testing session](images/story-ux-consulting-u9Af.jpg)\n\nBased on my notes and observations from the testing session, I then dedicated a few weeks to redesigning the interface, considering things like the flow, information hierarchy, and UX writing.\n\n![Redesign sketches](images/story-ux-consulting-qFOe.jpg)\n\n## Results\nWe discussed the results of my research in a final presentation. The result was not a polished mockup, but rather a series of recommendations, communicated with wireframes and sketches, for how their users' experience and engagement could be improved.\n\n![Final presentation results](images/story-ux-consulting-sMMO.jpg)\n\n## Impact\nThe customer has since implemented many of the changes that I recommended and their configurator has been given a significantly smoother experience. The following is a screenshot of the current UI (updated 8 Nov 2024).\n\n![Current UI](images/story-ux-consulting-tFm1.png)"
+  },
+  {
+    "id": "010",
+    "title": "GlowGrid - Flipping the Switch on New Habits",
+    "description": "Designing and building a board of illuminated switches, a tactile representation of personal milestones",
+    "company": "Personal Project",
+    "status": "published",
+    "type": "Design",
+    "date": "Feb 2024",
+    "slug": "/p/010",
+    "thumbnailUrl": "images/thumbnail-glow-grid-illuminating-the-journey-of-habit-tracking-wip-Hd.png",
+    "skills": [
+      "3D Modeling",
+      "Electrical Design",
+      "Laser Cutting",
+      "Rapid Prototyping"
+    ],
+    "collaborators": [],
+    "links": [],
+    "story": "### Inspiration\nThe idea for GlowGrid was born out of the long and anxious hours of the COVID-19 lockdown. I was stranded in a tiny studio apartment in a Tokyo suburb, having traveled there for an exchange semester but now too scared to leave. Not knowing when or if this lockdown would end but determined to not go insane, I committed myself to a series of new habits (mostly learning japanese, outdoor exercise).\n\n![Tokyo lockdown](images/story-glowgrid-illuminating-the-journey-to-new-habits-wip-MIKE.png)\n\nI found the most effective habit tracking tools to be visual reminders that would also show me my progress so far. I started off with posters and later progressed to rainbow scratch paper. I found myself craving that small reward of scratching off another day, and noticing a gap in my progress was just painful enough that I would try to prevent it.\n\n\n## Iteration 1: Acrylic Prototype\nEven after lockdown ended, I found myself still using this method to track my habits (now reading books, meditating). I came across Simone Giertz’s \"Everyday Calendar\", which inspired me to build a more tangible and reusable version of this habit tracking system. The Everyday Calendar uses capacitive touch pads that light up when touched.\n\nPreferring the idea of a more tactile experience, my first prototype consisted of an acrylic frame with an array of 31 illuminated neon rocker switches - one switch for each day.\n\n![Prototype 1](images/story-glowgrid-illuminating-the-journey-to-new-habits-wip-qv75.jpg)\n\nThe idea worked well. I refined the design in CAD and improved the wiring to make it easier to assemble and repair. With the second version I had a product that was easy and safe enough to produce serially. I made 6 units in various colors for friends.\n\n![Production units](images/story-glowgrid-illuminating-the-journey-to-new-habits-wip-PGlm.png)\n\n![Multiple units](images/story-glowgrid-illuminating-the-journey-to-new-habits-wip-RAjh.jpg)\n\n\n## Iteration 2: A Broader Canvas\nEncouraged by [Valentin Ruhry's \"Hello World\"](http://ruhry.at/en/work/items/untitled-hello-world.html), I have expanded GlowGrid's scope.\n\nThe next version of GlowGrid aims to be much larger than 31 switches – hopefully hundreds or thousands. Date labels will be omitted, the aim shifted towards a broader view of achievement: recognizing that progress isn’t always linear. The illuminated switches should appear like pixels, capturing the essence that every small effort contributes to the bigger picture.\n\n![Large canvas mockup](images/story-glowgrid-illuminating-the-journey-to-new-habits-wip-HsSl.jpg)\n\nThe current challenges are sourcing a more appropriate and affordable rocker switch and reducing the spacing between the switches, possibly transitioning from the current acrylic frame to a stronger version made of aluminum or steel. The acrylic frame pictured above will be used to prototype the electric wiring and validate the modular design idea.\n\n![Modular prototyping](images/story-glowgrid-illuminating-the-journey-to-new-habits-wip-aB1L.jpeg)"
+  },
+  {
+    "id": "011",
+    "title": "HackZurich 2023: Remy, AI Cooking Assistant",
+    "description": "UX design and branding for an app that reimagines any recipe for the mindful chef, suggesting sustainable alternatives and guiding you step by step, hands free",
+    "company": "HackZurich",
+    "status": "published",
+    "type": "Design",
+    "date": "Sep 2023",
+    "slug": "/p/011",
+    "thumbnailUrl": "images/thumbnail-hack-zurich-2023-remy-ai-cooking-assistant-hU.png",
+    "skills": [
+      "Brand Design",
+      "Front-End Web Development",
+      "Graphic Design",
+      "Product Management",
+      "UX Design"
+    ],
+    "collaborators": [],
+    "links": [],
+    "story": "<div data-youtube-video=\"\"><iframe src=\"https://www.youtube-nocookie.com/embed/Ygs8dQEqntM\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n\n[Devpost: Remy | Devpost](https://devpost.com/software/remy-c2b5e1)\n\nParticipating at Europe's biggest Hackathon in Zurich with a team of experienced developers and NLP experts, we designed a voice assistant app that interactively guides the user through the cooking process and suggests sustainable ingredients, making cooking cooking effortlessly sustainable and completely hands-off.\n\n---\n\n## Inspiration\nWhen building our app, we were driven by a straightforward idea: to stand out and spark interest. We drew inspiration from the small actions that lead to bigger changes, especially in sustainability. Our goal was to make a tool that doesn't just catch the eye but truly helps users step towards greener cooking habits.\n\n![Inspiration](images/story-ai-assistant-remy-simplifies-cooking-with-nlp-tIv7.png)\n\n---\n\n## Branding and User Experience\nAs the name implies, \"Remy\" was named after the culinary genius rodent starring in Disney Pixar's classic, *Ratatouille*. By using Remy, the user is guided through the recipe naturally and step by step, almost as if there was a rodent tugging on their hair underneath their imaginary chef hat.\n\nThe goal of the app was to achieve a completely hands-off experience. The recipe instructions user interface was inspired by Spotify's (among others) lyrics feature, where the relevant lyrics appear on screen as soon as it's their turn. The color scheme was chosen based on warm and inviting colors commonly associated with appetite, yet dark enough to provide sufficient contrast to be read from a distance while also preserving battery.\n\n![Branding and UX](images/story-hackzurich-2023-remy-ai-cooking-assistant-Y5ME.png)\n\n---\n\n## What it does\nRemy is an LLM powered voice assistant for the kitchen. The user can simply tell Remy what they're cooking (per URL to an online recipe or prompt it with an idea for a dish), Remy will interactively talk the user through every step of the recipe, allowing hand-free interaction. Additionally, as the user gathers ingredients, Remy suggests sustainable alternatives, weaving sustainability effortlessly into the kitchen routine.\n\n![Usage](images/story-ai-assistant-remy-simplifies-cooking-with-nlp-Eeph.png)\n\n## How we built it\nAt the core, LLM powers our back-end, deftly processing recipes, extracting ingredients, and suggesting alternatives, while adeptly navigating user prompts. Voice interaction? We leaned into the Web Speech API for flawless speech-to-text conversion, and chose Eleven-Labs to breathe life into the text, translating it back to guiding voices. The facade you interact with is sculpted using React-JS, housed on Firebase. And that touch of sustainability? It’s data-driven, with a nod to real grocery product datasets.\n\n---\n\n## Challenges we ran into\nWe often lost focus, wanting to do too much at once. Combining our work was challenging. Understanding and responding to natural speech, like knowing when to listen, was hard. Setting up the app for everyone to use gave us headaches. And figuring out the best way to handle recipe prompts took a lot of time and effort. Goal setting and delivering a specific result by a certain time proved to be a challenge.\n\n## Accomplishments that we're proud of\nSeeing our first Proof-of-Concept come alive was a major win; it was proof our idea wasn't just a dream but could work in real life. We're incredibly proud of the originality of our concept. The way we divided tasks and maintained focus was spot-on. And bringing together everyone's contributions into one cohesive app is a feat we'll always cherish."
+  },
+  {
+    "id": "012",
+    "title": "Ambulance Fleet Management and Paramedic Companion App",
+    "description": "Designing a mobile app for paramedics and a virtual workspace for ambulance fleet management",
+    "company": "Swiss Hospitals Group",
+    "status": "published",
+    "type": "Consulting",
+    "date": "Jul 2023",
+    "slug": "/p/012",
+    "thumbnailUrl": "images/thumbnail-ambulance-fleet-management-and-paramedic-companion-app-Z0.png",
+    "skills": [
+      "Agile Project Management",
+      "Design Thinking",
+      "Product Management",
+      "Requirements Engineering",
+      "Requirements Workshops",
+      "UX Design"
+    ],
+    "collaborators": [],
+    "links": [],
+    "story": "## Problem\nContracted by a Swiss group of hospitals, the challenge was to develop a mobile app and dashboard that would help manage the fleet of ambulances and report and log any damage or repairs.\n\n## Role\nI acted as the role of consultant, UX designer, and design workshop facilitator.\n\n## Method\nWe began by conducting a discovery workshop at the customer's site. They showed us their infrastructure and we explicitly asked us to walk us through every step of their daily routine and processes in order to better understand their pain points. This took several iterations but helped us define a detailed customer journey that laid the foundation for the proposed information architecture and user flow.\n\n![User journey workshop](images/story-ambulance-fleet-management-and-paramedic-companion-app-eDt4.png)\n\nThe resulting user journey map helped us understand the customer's pain points and design requirements, which allowed us to sketch some initial wireframes, later to be turned into a more functional Figma prototype.\n\n![Wireframes and architecture](images/story-ambulance-fleet-management-and-paramedic-companion-app-rsX0.png)\n\n### Example process\nOne of the problems to be solved with the mobile app was to replace a paper report with tickets submitted through an app. The proposed solution was a virtual workspace for ambulance drivers to submit reports about vehicle faults and repairs, built with ServiceNow's mobile UI design system. We ran several rounds of user tests using the Figma prototype to validate and improve the designs.\n\n![Mobile app interface](images/story-ambulance-fleet-management-and-paramedic-companion-app-mxAU.png)\n\n## Offer\nThe project deliverable was a detailed offer to the customer, which proposed a mobile app (shown above), a desktop workspace (below), and a TV screen dashboard.\n\n![Desktop workspace](images/story-ambulance-fleet-management-and-paramedic-companion-app-YLgZ.png)\n\nFor budget reasons the offer could not be accepted and the digitalization effort was deferred to a later date."
+  },
+  {
+    "id": "013",
+    "title": "Making Cooktops Accessible for Visually Impaired",
+    "description": "Innosuisse funded prototyping research project of solutions to make modern touch-controlled cooktops usable for visually impaired users",
+    "company": "SBV / HSLU",
+    "status": "published",
+    "type": "Research",
+    "date": "Feb 2022",
+    "slug": "/p/013",
+    "thumbnailUrl": "images/thumbnail-making-cooktops-accessible-for-visually-impaired-Xy.jpg",
+    "skills": [
+      "Design Research",
+      "Prototyping",
+      "Assistive Technology"
+    ],
+    "collaborators": [
+      {
+        "name": "Rayan Armani",
+        "link": "https://rayanarmani.com"
+      }
+    ],
+    "links": [
+      {
+        "label": "Innosuisse Article",
+        "url": "https://www.innosuisse.admin.ch/en/innovating-in-the-field-of-disability-through-co-creation"
+      }
+    ],
+    "story": "<div data-youtube-video=\"\"><iframe src=\"https://www.youtube-nocookie.com/embed/_0n_z2QLrWg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n\n## Project Details\nIndustrial Design / concept development of solutions to make modern built-in glass ceramic and induction cooktops usable for users who are visually impaired. Solutions were conceptualized, prototyped, and tested in collaboration with the Swiss Blind Union SBV and HSLU.\n\n### Team\nA partnership between HSLU Lucerne University of Applied Sciences and the Swiss Federation for the Blind, funded by the NTN Innovation Booster - Technology & Special Needs, backed by the Swiss Innovation Agency Innosuisse.\n\n![Project Team](images/story-making-cooktops-accessible-for-visually-impaired-GoPU.png)\n\nThe Team started with Luciano Butera (right), Head of Technology and Innovation at the Swiss Blind Federation (SBV) as the industrial partner, me as the project manager and researcher, and Norbert Meier, industrial designer and professor of Industrial Design at Lucerne University of Applied Sciences (HSLU) as the advisor. Once Innosuisse began funding the project, our main contact was Noémi Moulin (left), project coordinator for the NTN Innovation Booster - Technology and Special Needs.\n\n\n### Problem\nMany modern cooktops are controlled with a touch-control panel built into the smooth glass surface. These cooktops are typically pre-installed in kitchens of rental units and cannot be removed or replaced. Most do not have an interface for third party devices or control and rely exclusively on touch-controls making them useless to Visually impaired (VI) users. These touch-control cooktops must be retrofitted with a device that takes input from the user via conventional tactile knobs or buttons.\n\n![Touch control problem](images/story-making-cooktops-accessible-for-visually-impaired-t9IY.png)\n\n\n### Task\nDevelop one or several solutions to make existing modern touch-control cooktops accessible for users who are visually impaired.\n\n\n### Development Process\n![Design thinking process](images/story-making-cooktops-accessible-for-visually-impaired-o9AA.png)\n\nTo develop ideas for concepts, the Design Thinking Method was used, including ideation techniques, shadowing and user workshops, and iterative prototyping using rapid prototyping such as 3D printing, lasercutting, and Arduino, testing each iteration with users along the way.\n\n![Prototyping iteration](images/story-making-cooktops-accessible-for-visually-impaired-mcgy.png)\n\nThe concepts ranged from very low tech, representing nothing more than a guide for the fingers, to relatively high tech, interfacing directly with the cooktop. Testing was conducted with visually impaired users: ideas were compared, some discarded, some new requirements added.\n\n![User testing](images/story-making-cooktops-accessible-for-visually-impaired-kCo4.jpeg)\n\n\n### Results\nThe final concept consists of an “AutoClicker” module that is controlled wirelessly via low energy bluetooth. The AutoClicker controls leads that are attached to the glass surface with adhesive, one lead per touch button. These leads are recognized by the cooktop control panel just like a real finger. The bluetooth signal comes from a remote module with dials and other basic tactile input elements (switches, sliders, buttons). The user receives feedback via LEDs (90% of visually impaired users can still differentiate light and colors) and/or speakers that emit a short sound corresponding to the current cooktop setting.\n\n![Final system concept](images/story-making-cooktops-accessible-for-visually-impaired-A0pt.png)\n\n\n### Outlook\nThroughout the project, we developed several promising prototypes with potential for further refinement. For optimal results, collaboration with a kitchen appliance manufacturer would be beneficial. Their expertise would provide essential insights, market data, and valuable resources.\n\nOur vision isn't limited to supporting only VI users. We're looking at a product that is inclusive for individuals with motor and cognitive challenges, and equally beneficial for the aging population. This endeavor emphasizes the importance of inclusive design, enhancing many lives.\n\nLooking forward, the plan is to advance the project into a second prototyping phase. The ultimate goal is to introduce a versatile product to the market, making a variety of touch-controlled home appliances accessible for all, promoting a shift towards more inclusive design in the industry."
+  },
+  {
+    "id": "014",
+    "title": "Dot Inc x Apple - UI Concept Development for Tactile Displays",
+    "description": "Developed UX concepts addressing how complex graphical user interfaces should best be translated into tactile graphical user interfaces",
+    "company": "Dot Inc / Apple",
+    "status": "published",
+    "type": "Design Research",
+    "date": "Oct 2020",
+    "slug": "/p/014",
+    "thumbnailUrl": "images/thumbnail-ux-concept-development-for-tactile-displays-0v.webp",
+    "skills": [
+      "UX Design",
+      "Research",
+      "Assistive Technology"
+    ],
+    "collaborators": [],
+    "links": [],
+    "story": "### Article\n[Techcrunch article](https://techcrunch.com/2022/03/10/dot-pad-tactile-display-makes-images-touchable-for-visually-impaired-users/)\n\n## About\nDot Incorporation is a South Korean startup producing innovative assistive technology for the blind such as braille smart watches, tactile braille displays, and accessible information kiosks.\n\nDot Pad is the first smart tactile graphics display for the visually impaired that enables the user to access visual content such as handwriting, graphs, equations, photos, documents, sketches and art in real time via 2400 tactile braille pins.\n\n![Dot Pad Interface](images/story-dot-inc-x-apple-ux-concept-development-for-tactile-displays-upCM.png)\n*Photo: Dot Inc*\n\n---\n\n## Task\nTo ensure Dot's tactile displays integrate seamlessly with iOS and macOS devices, we engaged in a collaborative effort with Apple Inc.\n\nThis involved creating user experience (UX) concepts and developing an API that enables compatibility with Apple's VoiceOver, the primary assistive technology used by visually impaired users today.\n\n![VoiceOver integration](images/story-dot-inc-x-apple-ux-concept-development-for-tactile-displays-InjD.png)\n\n### Team\nA 3-day workshop was held in Cupertino with Apple's VoiceOver Team and QA testers. The team consisted of co-founders Ki Kwang Sung and Eric Ju Yoon Kim (far left, middle right), Lead Engineer Giyeon Hwang (far right), and me as the design researcher.\n\n![Apple Workshop Team](images/story-dot-inc-x-apple-ux-concept-development-for-tactile-displays-BaMX.png)\n\n### Role\nMy role during the workshop was to create visuals and pitch decks (eg for presentation to Apple marketing team) and present my case study and findings about tactile graphics (see next page).\n\n---\n\n## Case Study: Displaying emojis on tactile displays\nEmojis were used as a case study for how and whether images should be processed into tactile graphics.\n\nPast studies had suggested that the ability to understand simple visual representations of facial expressions is innate in humans and not strictly learned, such that tactile emojis could indeed enhance the writing’s meaning and emotional depth.\n\nThe emoji were ordered by usage and processed into into 32x32 pixel representation. Most of these then had to be manually refined.\n\nThe design process led to questions such as:\n- Which symbols provide the most value and how do we measure this?\n- How do we deal with images that are too visually complex for single color 32x32 pixels?\n- Is there a responsibility to convey the semantic meaning and cultural usage of an emoji or symbol, rather than their literal meaning?\n\n![Tactile Emojis](images/story-dot-inc-x-apple-ux-concept-development-for-tactile-displays-0bsm.png)"
+  },
+  {
+    "id": "015",
+    "title": "Industrial Project in Offshore Wind – Concept Development",
+    "description": "Requirements engineering and concept development for a condition monitoring system for bolted flange connections on offshore wind turbines.",
+    "company": "Arvick BV",
+    "status": "published",
+    "type": "Engineering",
+    "date": "Dec 2019",
+    "slug": "/p/015",
+    "thumbnailUrl": "images/thumbnail-industrial-project-in-offshore-wind-product-concept-development-l2.jpg",
+    "skills": [
+      "Civil Engineering",
+      "Concept Development",
+      "Requirements Engineering"
+    ],
+    "collaborators": [],
+    "links": [],
+    "story": "### Problem Statement\nThe dynamics and vibrations experienced by Offshore Wind Turbine (OWTs) bolted joints, especially monopile - transition piece (MP- TP) flanges, can jeopardize joint reliability. Challenges include bolt relaxation, fatigue, and corrosion. Notably, these connections are typically inspected on a fixed schedule rather than in real-time. Previously, field operatives noticed loosened bolts in MP-TP connections, but the precise cause was unidentified.\n\n![Flange joint](images/story-industrial-project-in-offshore-wind-product-concept-development-6QWa.jpg)\n\n---\n\n### Project Aim\nTo conceptualize a monitoring system for bolted flange connections and to determine its feasibility in terms of cost savings during Operation and Maintenance (O&M).\n\n---\n\n### Approach\n- Utilize existing technologies to monitor bolted flange connection conditions.\n- Convert these measurements into digital data.\n- Transmit this data in real-time to an onshore location for interpretation and visualization.\n\n![Data transmission concept](images/story-industrial-project-in-offshore-wind-product-concept-development-P5Vu.png)\n\n---\n\n## Impact\n> The project's proposed innovation pushes the industry from fixed-schedule maintenance to condition-based maintenance, presenting potential significant long-term savings in OWF maintenance.\n\nLong-Term Benefits:\n- *Reduced Inspection Frequency:* This leads to significant savings on maintenance trips.\n- *Minimized Inspection Extent:* Focus only on areas of concern.\n- *Enhanced Structural Integrity Confidence*: Reduced uncertainty in the overall structural health.\n- *Mitigated Unplanned Maintenance:* By catching issues earlier.\n- *Bolt Failure Root Causes*: Identification of primary reasons for bolt failures.\n- *Regulation & Standardization Contribution*: Set new industry benchmarks and standards.\n- *New Opportunities*: Pave the way for advancements in structural engineering and innovative product development.\n\n---\n\n### Executive Summary\nAs offshore wind energy gains traction, most offshore wind turbines consist of a monopile and a transition piece secured by flanges and M72 steel bolts. Arvick BV, specialists in the bolting methodologies for these connections, aspires to extend their expertise to condition monitoring. This initiative offers wind park operators or owners the ability to oversee their assets' bolted flange connections throughout its 20-30 year lifespan, ensuring superior asset integrity.\n\nThe project's ambition is to conceptualize this monitoring system, commencing with a preliminary situation analysis. This process establishes the groundwork for distinct system requirements which emphasize measuring bolt loads, ensuring compatibility with hydraulic bolting instruments, efficient data processing, and secure onshore data transmission.\n\nVarious technological solutions were evaluated, culminating in three primary concepts:\n1. A versatile system harnessing NordLock Superbolt smart tensioners.\n2. A technologically advanced setup utilizing Brosa Force Washers via CANBus.\n3. A cost-conscious system employing wireless Sulzer Sense accelerometers for vibration-rooted detection.\n\n![System concepts](images/story-industrial-project-in-offshore-wind-product-concept-development-4nF4.png)\n\n---\n\n## My Role\n- **Product Planning:** Spearheaded the early phases, aligning problem with product vision.\n- **Concept Development:** Led brainstorming and visualization sessions.\n- **Requirement Engineering:** Developed the table of requirements, applied a morphological box approach, and illustrated these concepts through detailed diagrams and sketches."
+  },
+  {
+    "id": "016",
+    "title": "Freitag Labs x HSLU - Design Thinking Project",
+    "description": "As a part of the course \\\"Innovation Project\\\", a new concept for the prompt \\\"individual logistics\\\" was iteratively designed for Freitag AG.",
+    "company": "Freitag AG",
+    "status": "unlisted",
+    "type": "Business Development",
+    "date": "Dec 2018",
+    "slug": "/p/016",
+    "thumbnailUrl": "images/thumbnail-sustainable-delivery-solutions-boost-satisfaction-Qp.jpeg",
+    "skills": [],
+    "collaborators": [],
+    "links": [],
+    "story": "## Problem\nFreitag AG, a Swiss company specializing in upcycling materials to create unique bags and accessories, sought inspiration developing new concepts for \"individual logistics\". The company wanted to explore new ways of delivering their products to customers while maintaining their commitment to sustainability.\n\nOur team of students was tasked with addressing this challenge through a 6-month Design Thinking project. We had to find a way to identify customer needs, develop creative ideas, and prototype potential solutions that aligned with Freitag's brand values.\n\n## Method\nWe began by conducting extensive user research using personas, interviews, and customer journeys. This allowed us to gain a deep understanding of our target audience's pain points and preferences when it came to product delivery. From there, we used brainstorming techniques to generate a wide range of potential solutions.\n\nOnce we had several promising ideas, we created low-fidelity prototypes that we tested with users for feedback. Based on this feedback, we iteratively refined our prototypes until we had a high-fidelity solution that met both user needs and Freitag's sustainability goals. Throughout the process, we also developed a lean business canvas that helped us visualize the potential market for our product.\n\n## Solution\nThe solution we chose was a bag with modular inserts that could be configured via an app configurator based on a 3D scans of the users belongings that they wished to transport in this bag. We iteratively wireframed how such an app could look and developed a functional prototype of such a bag with inserts so we could demonstrate a few different configurations.\n\n![Solution concept 1](images/story-sustainable-delivery-solutions-boost-satisfaction-egWH.png)\n\n![Solution concept 2](images/story-sustainable-delivery-solutions-boost-satisfaction-jCOg.png)\n\n![Physical prototype](images/story-sustainable-delivery-solutions-boost-satisfaction-3vKc.jpeg)"
+  },
+  {
+    "id": "017",
+    "title": "WallBo Social Robot: Industrial Design & Prototyping",
+    "description": "Updating the physical design of a wall-mounted social robot to accommodate upgraded hardware and improve its friendliness for children.",
+    "company": "ETH Zürich",
+    "status": "published",
+    "type": "Industrial Design",
+    "date": "Nov 2025",
+    "slug": "/p/017",
+    "thumbnailUrl": "images/story-wallbo-social-robot-industrial-design-prototyping-IE7W.png",
+    "skills": [
+      "3D Modeling",
+      "Blender",
+      "Electronics Integration"
+    ],
+    "collaborators": [
+      {
+        "name": "Amol Deshmukh"
+      }
+    ],
+    "links": [
+      {
+        "label": "Wallbo Case Study",
+        "url": "https://arcaccelerator.io/case-studies/wallbo/"
+      },
+      {
+        "label": "CHI Publication",
+        "url": "https://dl.acm.org/doi/pdf/10.1145/3772363.3799114"
+      },
+      {
+        "label": "Demo Video",
+        "url": "https://www.youtube.com/watch?v=qMXRR_eCMLY"
+      }
+    ],
+    "story": "## Original Project\n\nWallBo is a wall-mounted social robot designed to encourage and monitor handwashing habits among children in schools. Developed to combat the spread of diseases like COVID-19 and reduce child mortality rates in developing countries, the robot uses AI to engage with students, making the hygiene process fun and interactive.\n\n![WallBo Robot](images/story-wallbo-social-robot-industrial-design-prototyping-IE7W.png)\n*Image: Youtube*\n\n## Task\n\nThe objective was to update the robot's physical design to accommodate upgraded internal hardware - specifically an Nvidia Jetson edge computer and a larger touchscreen interface. \n\nAdditionally, the project required a visual overhaul to make the robot's appearance friendlier and more approachable for its young user base.\n\n![Task Image](images/story-wallbo-social-robot-industrial-design-prototyping-GCZc.png)\n\nI was contracted to handle the Industrial Design, CAD modeling, and physical prototyping. My responsibilities focused on the complete redesign of the enclosure and the physical integration of the new electronic components.\n\n![Design Image](images/story-wallbo-social-robot-industrial-design-prototyping-74xv.png)\n\nI modeled a new enclosure that securely housed the Nvidia Jetson and touchscreen while softening the overall aesthetic to improve its \"friendliness\" factor.\n\n![Enclosure Image](images/story-wallbo-social-robot-industrial-design-prototyping-Wnr1.png)\n\nOnce the design was finalized in CAD, I 3D printed the new housing and managed the assembly process, successfully integrating the new hardware into the redesigned chassis.\n\n![Assembly Image](images/story-wallbo-social-robot-industrial-design-prototyping-NW4t.png)\n\nThe new design was accepted and presented as the new \"Wallbo 2.0\" design for a submission to CHI 2026."
+  },
+  {
+    "id": "3456",
+    "title": "Again & Again & Again & - Multimedia performance and installation",
+    "description": "Planning and installing a multimedia installation exploring alternative temporalities through melting ice, amplified soundscapes, and video footage, presented in Yogyakarta.",
+    "company": "ZHdK / Shared Campus",
+    "status": "published",
+    "type": "Arts Production",
+    "date": "March 2026",
+    "slug": "/p/3456",
+    "thumbnailUrl": "images/thumbnail.png",
+    "skills": [
+      "Multimedia Art Production",
+      "Installation Design",
+      "Project Management"
+    ],
+    "collaborators": [
+      {
+        "name": "Vendela Håkonsen",
+        "link": "https://venaur.com/"
+      },
+      {
+        "name": "Rachel Lin",
+        "link": "https://www.linkedin.com/in/rachel-lin-huiyi/"
+      },
+      {
+        "name": "Li De"
+      },
+      {
+        "name": "Leonie Karbownik"
+      },
+      {
+        "name": "Anja Schläppi"
+      }
+    ],
+    "links": [
+      {
+        "label": "Transcultural Collaboration Website",
+        "url": "https://www.transculturalcollaboration.com/"
+      }
+    ],
+    "story": "*Again & Again & Again & (splishsplashpingpongbeepboop)* explores alternative temporalities as methodology and proposes a social, polythematic approach to lived reality. Through the simultaneous reduction and accumulation of melting ice and amplified soundscapes and footages of Yogyakarta, the work embodies event-based time while layering communal polyrhythms. Activated by a performance, it layers upon a communal agreement to alter its melt but fails as time asserts  itself as an unstoppable, cosmic force.\n\nThe installation and performance was part of an exhibition called *Hati Hati, It Will Rain Soon*, hosted at Galleri Lorong in Yogyakarta. 27 artists, both from Yogyakarta and international, presented\nartistic works offering insights into our collaborative and transcultural working processes, observing and reflecting on the cultural context of Yogyakarta where we had been staying for 3 weeks.\n\n![Rachel Lin performing in Again & Again & Again &](images/closeup-rachel.png)\n\n\n### Collaboration\nThe conceptualization and execution of the installation occured over the course of less than two weeks, in an international team of participants from a wide range of discplines: art history, fine arts, sound art, film, and performing arts. We worked hard to be as collaborative as possible, incorporating each others' perspectives and skills throughout the process but still allowing each other to try something new if desired.\n\n![Planning the installation](images/planning.png)\n\n\n### Role\nWhile some other members in the team rehearsed and refined the performance, my role was primarily in installation design and execution: I coordinated with local artists, residents, and collectives to procure materials and contact technicians who could help us realize our vision in the little time we had. Luckily, Yogyakarta's culture is dynamic and spontaneous, making last-minute changes and arrangements easy.\n\n![Sourcing materials in Yogyakarta](images/sourcing.png)\n\n\n### Execution\nIn preparing the installation, we consulted HONF collective, a media art collective and research lab for citizen science. Dhoni from HONF suggested we present the detailed concept at their house so they could provide architectural input. A few days later we met; the initial meeting was efficient and thorough. We discussed possible implementation strategies, discarded mechanically risky and electronically complex ideas, and negotiated a daily rate for two technicians for three days (setup, exhibition, dismantling). The coordination later happened mostly through whatsapp, using Google Translate where necessary. \n\n![Building the installation](images/installing.png)\n\n\n### The Program \"Transcultural Collaboration\"\nThe event was presented by the minor programme «Transcultural Collaboration» of Zurich\nUniversity of the Arts in collaboration with partner universities in Hong Kong, Singapore, Taipei,\nTokyo, and Yogyakarta. The programme was offered in cooperation with Shared Campus, a unique cooperation platform of\ncurrently 9 art universities.\n\n![Rachel Lin performing](images/action-shot.png)"
+  },
+  {
+    "id": "7846",
+    "title": "Audio-to-Haptics Hardware Interface",
+    "description": "Developing a custom hardware solution for converting audio files into tactile vibration patterns for robotic interaction research.",
+    "company": "ETH Zürich",
+    "status": "published",
+    "type": "Hardware design",
+    "date": "Oct 2025",
+    "slug": "/p/7846",
+    "thumbnailUrl": "images/thumbnail.png",
+    "skills": [
+      "Haptics",
+      "Internet of Things",
+      "Interaction Design",
+      "Human-Robot Interaction",
+      "Web Design"
+    ],
+    "collaborators": [],
+    "links": [
+      {
+        "label": "GitHub Repository",
+        "url": "https://github.com/sullyjason/AudioToHaptics"
+      },
+      {
+        "label": "Background Research Paper",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3757279.3785620"
+      }
+    ],
+    "story": "### Task\nContracted by one of ETH Zürich's neuroscience research labs, it was my job to produce a piece of hardware that would be capable of converting any audio files into vibration patterns. The project belonged to a larger effort to understand and systematize how we as humans perceive tactile feedback and haptic interactions with robots. Which haptic patterns do we consider pleasant, and which do we feel an aversion to?\n\n![Testing audio amplifier boards](images/prototyping.png)\n\n### Solution\nThe Audio-to-haptics solution relies on cheap, widely available components and a working principle that is intuitive and well-documented. It uses a microcontroller with a wifi antenna, an audio amplifier, and an SD card reader. \n\n![Enclosure sketches and 3D Modeling](images/sketching.png)\n\nAn SD card pre-loaded with audio files is inserted into the device. The device is powered via USB C (eg. with a power bank). The haptic vibration motor is plugged into the device, and can now be embedded into the object of study. The device and the contents of its SD card can then be seen on an online dashboard, where the user can play, loop, and stop each audio file as needed. The device amplifies the audio signal so that the vibration motor outputs them as vibrations.\n\n![Final Result](images/final_product.png)\n\n### Role\nI was responsible for the complete design, prototyping, documentation and shipping of this product. The solution was to be as robust as possible, with multiple backup options in place so the device could stay in operation for the duration of the studies it was intended to be used for. The intended user was also considered non-technical, which provided me with the additional challenge of documenting without the use of technical jargon. Overall, a rewarding experience in transdisciplinary product development and exchange.\n\n![Architecture and Dashboard](images/dashboard.png)"
+  }
+]
