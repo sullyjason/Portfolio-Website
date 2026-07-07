@@ -179,6 +179,18 @@ function setupLightbox() {
     // Close events
     closeBtn.addEventListener('click', closeLightbox);
 
+    // Zoom buttons (present on index.html only)
+    const zoomInBtn = document.getElementById('zoom-in');
+    const zoomOutBtn = document.getElementById('zoom-out');
+    if (zoomInBtn) zoomInBtn.addEventListener('click', () => {
+        scale += 0.25;
+        updateTransform();
+    });
+    if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => {
+        scale -= 0.25;
+        updateTransform();
+    });
+
     // Click outside image to close
     lightbox.addEventListener('click', (e) => {
         if (e.target === lightbox || e.target.id === 'lightbox-zoom-container') {
