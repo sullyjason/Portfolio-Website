@@ -61,7 +61,7 @@ function renderProject(project) {
         const isLinked = !!c.link;
         const baseClasses = "inline-flex items-center gap-2 px-3 py-1.5 rounded-full border text-sm font-semibold transition-colors";
         const themeClasses = isLinked
-            ? "border-blue-400 text-blue-500 hover:bg-blue-50"
+            ? "text-gray-900"
             : "border-gray-200 text-gray-400";
 
         const content = `<span>${c.name}</span>`;
